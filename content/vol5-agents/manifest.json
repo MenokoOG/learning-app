@@ -1,0 +1,1112 @@
+{
+  "id": "vol5-agents",
+  "title": "Agents: Multimodality, Protocols, Autonomy, and Swarms",
+  "phases": "12, 13, 14, 15, 16",
+  "chapter_count": 138,
+  "chapters": [
+    {
+      "id": "01-about-this-volume",
+      "title": "About This Volume",
+      "part": null,
+      "chapter_number": 1,
+      "file": "vol5-agents/01-about-this-volume.md",
+      "word_count": 141
+    },
+    {
+      "id": "02-how-to-use-this-book",
+      "title": "How to Use This Book",
+      "part": null,
+      "chapter_number": 2,
+      "file": "vol5-agents/02-how-to-use-this-book.md",
+      "word_count": 204
+    },
+    {
+      "id": "03-vision-transformers-and-the-patch-token-primitive",
+      "title": "Vision Transformers and the Patch-Token Primitive",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 3,
+      "file": "vol5-agents/03-vision-transformers-and-the-patch-token-primitive.md",
+      "word_count": 1974
+    },
+    {
+      "id": "04-clip-and-contrastive-vision-language-pretraining",
+      "title": "CLIP and Contrastive Vision-Language Pretraining",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 4,
+      "file": "vol5-agents/04-clip-and-contrastive-vision-language-pretraining.md",
+      "word_count": 1698
+    },
+    {
+      "id": "05-from-clip-to-blip-2-q-former-as-modality-bridge",
+      "title": "From CLIP to BLIP-2 \u2014 Q-Former as Modality Bridge",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 5,
+      "file": "vol5-agents/05-from-clip-to-blip-2-q-former-as-modality-bridge.md",
+      "word_count": 1801
+    },
+    {
+      "id": "06-flamingo-and-gated-cross-attention-for-few-shot-vlms",
+      "title": "Flamingo and Gated Cross-Attention for Few-Shot VLMs",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 6,
+      "file": "vol5-agents/06-flamingo-and-gated-cross-attention-for-few-shot-vlms.md",
+      "word_count": 1719
+    },
+    {
+      "id": "07-llava-and-visual-instruction-tuning",
+      "title": "LLaVA and Visual Instruction Tuning",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 7,
+      "file": "vol5-agents/07-llava-and-visual-instruction-tuning.md",
+      "word_count": 1710
+    },
+    {
+      "id": "08-any-resolution-vision-patch-n-pack-and-naflex",
+      "title": "Any-Resolution Vision: Patch-n\u2019-Pack and NaFlex",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 8,
+      "file": "vol5-agents/08-any-resolution-vision-patch-n-pack-and-naflex.md",
+      "word_count": 1747
+    },
+    {
+      "id": "09-open-weight-vlm-recipes-what-actually-matters",
+      "title": "Open-Weight VLM Recipes: What Actually Matters",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 9,
+      "file": "vol5-agents/09-open-weight-vlm-recipes-what-actually-matters.md",
+      "word_count": 1751
+    },
+    {
+      "id": "10-llava-onevision-single-image-multi-image-video-in-one-model",
+      "title": "LLaVA-OneVision: Single-Image, Multi-Image, Video in One Model",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 10,
+      "file": "vol5-agents/10-llava-onevision-single-image-multi-image-video-in-one-model.md",
+      "word_count": 1565
+    },
+    {
+      "id": "11-qwen-vl-family-and-dynamic-fps-video",
+      "title": "Qwen-VL Family and Dynamic-FPS Video",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 11,
+      "file": "vol5-agents/11-qwen-vl-family-and-dynamic-fps-video.md",
+      "word_count": 1606
+    },
+    {
+      "id": "12-internvl3-native-multimodal-pretraining",
+      "title": "InternVL3: Native Multimodal Pretraining",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 12,
+      "file": "vol5-agents/12-internvl3-native-multimodal-pretraining.md",
+      "word_count": 1517
+    },
+    {
+      "id": "13-chameleon-and-early-fusion-token-only-multimodal-models",
+      "title": "Chameleon and Early-Fusion Token-Only Multimodal Models",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 13,
+      "file": "vol5-agents/13-chameleon-and-early-fusion-token-only-multimodal-models.md",
+      "word_count": 1518
+    },
+    {
+      "id": "14-emu3-next-token-prediction-for-image-and-video-generation",
+      "title": "Emu3: Next-Token Prediction for Image and Video Generation",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 14,
+      "file": "vol5-agents/14-emu3-next-token-prediction-for-image-and-video-generation.md",
+      "word_count": 1447
+    },
+    {
+      "id": "15-transfusion-autoregressive-text-diffusion-image-in-one-transformer",
+      "title": "Transfusion: Autoregressive Text + Diffusion Image in One Transformer",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 15,
+      "file": "vol5-agents/15-transfusion-autoregressive-text-diffusion-image-in-one-transformer.md",
+      "word_count": 1499
+    },
+    {
+      "id": "16-show-o-and-discrete-diffusion-unified-models",
+      "title": "Show-o and Discrete-Diffusion Unified Models",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 16,
+      "file": "vol5-agents/16-show-o-and-discrete-diffusion-unified-models.md",
+      "word_count": 1290
+    },
+    {
+      "id": "17-janus-pro-decoupled-encoders-for-unified-multimodal-models",
+      "title": "Janus-Pro: Decoupled Encoders for Unified Multimodal Models",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 17,
+      "file": "vol5-agents/17-janus-pro-decoupled-encoders-for-unified-multimodal-models.md",
+      "word_count": 1291
+    },
+    {
+      "id": "18-mio-and-any-to-any-streaming-multimodal-models",
+      "title": "MIO and Any-to-Any Streaming Multimodal Models",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 18,
+      "file": "vol5-agents/18-mio-and-any-to-any-streaming-multimodal-models.md",
+      "word_count": 1361
+    },
+    {
+      "id": "19-video-language-models-temporal-tokens-and-grounding",
+      "title": "Video-Language Models: Temporal Tokens and Grounding",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 19,
+      "file": "vol5-agents/19-video-language-models-temporal-tokens-and-grounding.md",
+      "word_count": 1250
+    },
+    {
+      "id": "20-long-video-understanding-at-million-token-context",
+      "title": "Long-Video Understanding at Million-Token Context",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 20,
+      "file": "vol5-agents/20-long-video-understanding-at-million-token-context.md",
+      "word_count": 1321
+    },
+    {
+      "id": "21-audio-language-models-the-whisper-to-audio-flamingo-3-arc",
+      "title": "Audio-Language Models: the Whisper to Audio Flamingo 3 Arc",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 21,
+      "file": "vol5-agents/21-audio-language-models-the-whisper-to-audio-flamingo-3-arc.md",
+      "word_count": 1373
+    },
+    {
+      "id": "22-omni-models-qwen2-5-omni-and-the-thinker-talker-split",
+      "title": "Omni Models: Qwen2.5-Omni and the Thinker-Talker Split",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 22,
+      "file": "vol5-agents/22-omni-models-qwen2-5-omni-and-the-thinker-talker-split.md",
+      "word_count": 1311
+    },
+    {
+      "id": "23-embodied-vlas-rt-2-openvla-0-gr00t",
+      "title": "Embodied VLAs: RT-2, OpenVLA, \u03c00, GR00T",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 23,
+      "file": "vol5-agents/23-embodied-vlas-rt-2-openvla-0-gr00t.md",
+      "word_count": 1429
+    },
+    {
+      "id": "24-document-and-diagram-understanding",
+      "title": "Document and Diagram Understanding",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 24,
+      "file": "vol5-agents/24-document-and-diagram-understanding.md",
+      "word_count": 1303
+    },
+    {
+      "id": "25-colpali-and-vision-native-document-rag",
+      "title": "ColPali and Vision-Native Document RAG",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 25,
+      "file": "vol5-agents/25-colpali-and-vision-native-document-rag.md",
+      "word_count": 1319
+    },
+    {
+      "id": "26-multimodal-rag-and-cross-modal-retrieval",
+      "title": "Multimodal RAG and Cross-Modal Retrieval",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 26,
+      "file": "vol5-agents/26-multimodal-rag-and-cross-modal-retrieval.md",
+      "word_count": 1279
+    },
+    {
+      "id": "27-multimodal-agents-and-computer-use-capstone",
+      "title": "Multimodal Agents and Computer-Use (Capstone)",
+      "part": "Part I \u2014 Multimodal AI",
+      "chapter_number": 27,
+      "file": "vol5-agents/27-multimodal-agents-and-computer-use-capstone.md",
+      "word_count": 1290
+    },
+    {
+      "id": "28-the-tool-interface-why-agents-need-structured-i-o",
+      "title": "The Tool Interface \u2014 Why Agents Need Structured I/O",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 28,
+      "file": "vol5-agents/28-the-tool-interface-why-agents-need-structured-i-o.md",
+      "word_count": 2050
+    },
+    {
+      "id": "29-function-calling-deep-dive-openai-anthropic-gemini",
+      "title": "Function Calling Deep Dive \u2014 OpenAI, Anthropic, Gemini",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 29,
+      "file": "vol5-agents/29-function-calling-deep-dive-openai-anthropic-gemini.md",
+      "word_count": 1656
+    },
+    {
+      "id": "30-parallel-tool-calls-and-streaming-with-tools",
+      "title": "Parallel Tool Calls and Streaming with Tools",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 30,
+      "file": "vol5-agents/30-parallel-tool-calls-and-streaming-with-tools.md",
+      "word_count": 1638
+    },
+    {
+      "id": "31-structured-output-json-schema-pydantic-zod-constrained-decoding",
+      "title": "Structured Output \u2014 JSON Schema, Pydantic, Zod, Constrained Decoding",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 31,
+      "file": "vol5-agents/31-structured-output-json-schema-pydantic-zod-constrained-decoding.md",
+      "word_count": 1639
+    },
+    {
+      "id": "32-tool-schema-design-naming-descriptions-parameter-constraints",
+      "title": "Tool Schema Design \u2014 Naming, Descriptions, Parameter Constraints",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 32,
+      "file": "vol5-agents/32-tool-schema-design-naming-descriptions-parameter-constraints.md",
+      "word_count": 1515
+    },
+    {
+      "id": "33-mcp-fundamentals-primitives-lifecycle-json-rpc-base",
+      "title": "MCP Fundamentals \u2014 Primitives, Lifecycle, JSON-RPC Base",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 33,
+      "file": "vol5-agents/33-mcp-fundamentals-primitives-lifecycle-json-rpc-base.md",
+      "word_count": 1538
+    },
+    {
+      "id": "34-building-an-mcp-server-python-typescript-sdks",
+      "title": "Building an MCP Server \u2014 Python + TypeScript SDKs",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 34,
+      "file": "vol5-agents/34-building-an-mcp-server-python-typescript-sdks.md",
+      "word_count": 1324
+    },
+    {
+      "id": "35-building-an-mcp-client-discovery-invocation-session-management",
+      "title": "Building an MCP Client \u2014 Discovery, Invocation, Session Management",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 35,
+      "file": "vol5-agents/35-building-an-mcp-client-discovery-invocation-session-management.md",
+      "word_count": 1315
+    },
+    {
+      "id": "36-mcp-transports-stdio-vs-streamable-http-vs-sse-migration",
+      "title": "MCP Transports \u2014 stdio vs Streamable HTTP vs SSE Migration",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 36,
+      "file": "vol5-agents/36-mcp-transports-stdio-vs-streamable-http-vs-sse-migration.md",
+      "word_count": 1600
+    },
+    {
+      "id": "37-mcp-resources-and-prompts-context-exposure-beyond-tools",
+      "title": "MCP Resources and Prompts \u2014 Context Exposure Beyond Tools",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 37,
+      "file": "vol5-agents/37-mcp-resources-and-prompts-context-exposure-beyond-tools.md",
+      "word_count": 1363
+    },
+    {
+      "id": "38-mcp-sampling-server-requested-llm-completions-and-agent-loops",
+      "title": "MCP Sampling \u2014 Server-Requested LLM Completions and Agent Loops",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 38,
+      "file": "vol5-agents/38-mcp-sampling-server-requested-llm-completions-and-agent-loops.md",
+      "word_count": 1347
+    },
+    {
+      "id": "39-roots-and-elicitation-scoping-and-mid-flight-user-input",
+      "title": "Roots and Elicitation \u2014 Scoping and Mid-Flight User Input",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 39,
+      "file": "vol5-agents/39-roots-and-elicitation-scoping-and-mid-flight-user-input.md",
+      "word_count": 1273
+    },
+    {
+      "id": "40-async-tasks-sep-1686-call-now-fetch-later-for-long-running-work",
+      "title": "Async Tasks (SEP-1686) \u2014 Call-Now, Fetch-Later for Long-Running Work",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 40,
+      "file": "vol5-agents/40-async-tasks-sep-1686-call-now-fetch-later-for-long-running-work.md",
+      "word_count": 1174
+    },
+    {
+      "id": "41-mcp-apps-interactive-ui-resources-via-ui",
+      "title": "MCP Apps \u2014 Interactive UI Resources via ui://",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 41,
+      "file": "vol5-agents/41-mcp-apps-interactive-ui-resources-via-ui.md",
+      "word_count": 1429
+    },
+    {
+      "id": "42-mcp-security-i-tool-poisoning-rug-pulls-cross-server-shadowing",
+      "title": "MCP Security I \u2014 Tool Poisoning, Rug Pulls, Cross-Server Shadowing",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 42,
+      "file": "vol5-agents/42-mcp-security-i-tool-poisoning-rug-pulls-cross-server-shadowing.md",
+      "word_count": 1359
+    },
+    {
+      "id": "43-mcp-security-ii-oauth-2-1-resource-indicators-incremental-scopes",
+      "title": "MCP Security II \u2014 OAuth 2.1, Resource Indicators, Incremental Scopes",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 43,
+      "file": "vol5-agents/43-mcp-security-ii-oauth-2-1-resource-indicators-incremental-scopes.md",
+      "word_count": 1353
+    },
+    {
+      "id": "44-mcp-gateways-and-registries-enterprise-control-planes",
+      "title": "MCP Gateways and Registries \u2014 Enterprise Control Planes",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 44,
+      "file": "vol5-agents/44-mcp-gateways-and-registries-enterprise-control-planes.md",
+      "word_count": 5730
+    },
+    {
+      "id": "45-a2a-agent-to-agent-protocol",
+      "title": "A2A \u2014 Agent-to-Agent Protocol",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 45,
+      "file": "vol5-agents/45-a2a-agent-to-agent-protocol.md",
+      "word_count": 1273
+    },
+    {
+      "id": "46-opentelemetry-genai-tracing-tool-calls-end-to-end",
+      "title": "OpenTelemetry GenAI \u2014 Tracing Tool Calls End-to-End",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 46,
+      "file": "vol5-agents/46-opentelemetry-genai-tracing-tool-calls-end-to-end.md",
+      "word_count": 1151
+    },
+    {
+      "id": "47-llm-routing-layer-litellm-openrouter-portkey",
+      "title": "LLM Routing Layer \u2014 LiteLLM, OpenRouter, Portkey",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 47,
+      "file": "vol5-agents/47-llm-routing-layer-litellm-openrouter-portkey.md",
+      "word_count": 1182
+    },
+    {
+      "id": "48-skills-and-agent-sdks-anthropic-skills-agents-md-openai-apps-sdk",
+      "title": "Skills and Agent SDKs \u2014 Anthropic Skills, AGENTS.md, OpenAI Apps SDK",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 48,
+      "file": "vol5-agents/48-skills-and-agent-sdks-anthropic-skills-agents-md-openai-apps-sdk.md",
+      "word_count": 1375
+    },
+    {
+      "id": "49-capstone-build-a-complete-tool-ecosystem",
+      "title": "Capstone \u2014 Build a Complete Tool Ecosystem",
+      "part": "Part II \u2014 Tools & Protocols",
+      "chapter_number": 49,
+      "file": "vol5-agents/49-capstone-build-a-complete-tool-ecosystem.md",
+      "word_count": 1178
+    },
+    {
+      "id": "50-the-agent-loop-observe-think-act",
+      "title": "The Agent Loop: Observe, Think, Act",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 50,
+      "file": "vol5-agents/50-the-agent-loop-observe-think-act.md",
+      "word_count": 1469
+    },
+    {
+      "id": "51-rewoo-and-plan-and-execute-decoupled-planning",
+      "title": "ReWOO and Plan-and-Execute: Decoupled Planning",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 51,
+      "file": "vol5-agents/51-rewoo-and-plan-and-execute-decoupled-planning.md",
+      "word_count": 1305
+    },
+    {
+      "id": "52-reflexion-verbal-reinforcement-learning",
+      "title": "Reflexion: Verbal Reinforcement Learning",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 52,
+      "file": "vol5-agents/52-reflexion-verbal-reinforcement-learning.md",
+      "word_count": 1301
+    },
+    {
+      "id": "53-tree-of-thoughts-and-lats-deliberate-search",
+      "title": "Tree of Thoughts and LATS: Deliberate Search",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 53,
+      "file": "vol5-agents/53-tree-of-thoughts-and-lats-deliberate-search.md",
+      "word_count": 1248
+    },
+    {
+      "id": "54-self-refine-and-critic-iterative-output-improvement",
+      "title": "Self-Refine and CRITIC: Iterative Output Improvement",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 54,
+      "file": "vol5-agents/54-self-refine-and-critic-iterative-output-improvement.md",
+      "word_count": 1289
+    },
+    {
+      "id": "55-tool-use-and-function-calling",
+      "title": "Tool Use and Function Calling",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 55,
+      "file": "vol5-agents/55-tool-use-and-function-calling.md",
+      "word_count": 1256
+    },
+    {
+      "id": "56-agent-memory-virtual-context-and-memory-paging",
+      "title": "Agent Memory \u2014 Virtual Context and Memory Paging",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 56,
+      "file": "vol5-agents/56-agent-memory-virtual-context-and-memory-paging.md",
+      "word_count": 1559
+    },
+    {
+      "id": "57-memory-blocks-and-sleep-time-compute",
+      "title": "Memory Blocks and Sleep-Time Compute",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 57,
+      "file": "vol5-agents/57-memory-blocks-and-sleep-time-compute.md",
+      "word_count": 1226
+    },
+    {
+      "id": "58-hybrid-memory-vector-graph-kv",
+      "title": "Hybrid Memory: Vector + Graph + KV",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 58,
+      "file": "vol5-agents/58-hybrid-memory-vector-graph-kv.md",
+      "word_count": 1247
+    },
+    {
+      "id": "59-skill-libraries-and-lifelong-learning-voyager",
+      "title": "Skill Libraries and Lifelong Learning (Voyager)",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 59,
+      "file": "vol5-agents/59-skill-libraries-and-lifelong-learning-voyager.md",
+      "word_count": 1238
+    },
+    {
+      "id": "60-planning-with-htn-and-evolutionary-search",
+      "title": "Planning with HTN and Evolutionary Search",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 60,
+      "file": "vol5-agents/60-planning-with-htn-and-evolutionary-search.md",
+      "word_count": 1205
+    },
+    {
+      "id": "61-anthropic-s-workflow-patterns-simple-over-complex",
+      "title": "Anthropic\u2019s Workflow Patterns: Simple Over Complex",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 61,
+      "file": "vol5-agents/61-anthropic-s-workflow-patterns-simple-over-complex.md",
+      "word_count": 1038
+    },
+    {
+      "id": "62-stateful-graph-orchestration-durable-execution-and-checkpoints",
+      "title": "Stateful Graph Orchestration \u2014 Durable Execution and Checkpoints",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 62,
+      "file": "vol5-agents/62-stateful-graph-orchestration-durable-execution-and-checkpoints.md",
+      "word_count": 1092
+    },
+    {
+      "id": "63-the-actor-model-for-agents-async-messages-and-typed-runtimes",
+      "title": "The Actor Model for Agents \u2014 Async Messages and Typed Runtimes",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 63,
+      "file": "vol5-agents/63-the-actor-model-for-agents-async-messages-and-typed-runtimes.md",
+      "word_count": 1046
+    },
+    {
+      "id": "64-role-based-agent-teams-roles-tasks-processes",
+      "title": "Role-Based Agent Teams \u2014 Roles, Tasks, Processes",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 64,
+      "file": "vol5-agents/64-role-based-agent-teams-roles-tasks-processes.md",
+      "word_count": 2387
+    },
+    {
+      "id": "65-openai-agents-sdk-handoffs-guardrails-tracing",
+      "title": "OpenAI Agents SDK: Handoffs, Guardrails, Tracing",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 65,
+      "file": "vol5-agents/65-openai-agents-sdk-handoffs-guardrails-tracing.md",
+      "word_count": 972
+    },
+    {
+      "id": "66-the-harness-as-a-library-subagents-and-session-store",
+      "title": "The Harness as a Library \u2014 Subagents and Session Store",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 66,
+      "file": "vol5-agents/66-the-harness-as-a-library-subagents-and-session-store.md",
+      "word_count": 1050
+    },
+    {
+      "id": "67-production-agent-runtimes-fast-instantiation-and-typed-workflows",
+      "title": "Production Agent Runtimes \u2014 Fast Instantiation and Typed Workflows",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 67,
+      "file": "vol5-agents/67-production-agent-runtimes-fast-instantiation-and-typed-workflows.md",
+      "word_count": 967
+    },
+    {
+      "id": "68-benchmarks-swe-bench-gaia-agentbench",
+      "title": "Benchmarks: SWE-bench, GAIA, AgentBench",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 68,
+      "file": "vol5-agents/68-benchmarks-swe-bench-gaia-agentbench.md",
+      "word_count": 1030
+    },
+    {
+      "id": "69-benchmarks-webarena-and-osworld",
+      "title": "Benchmarks: WebArena and OSWorld",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 69,
+      "file": "vol5-agents/69-benchmarks-webarena-and-osworld.md",
+      "word_count": 950
+    },
+    {
+      "id": "70-computer-use-claude-openai-cua-gemini",
+      "title": "Computer Use: Claude, OpenAI CUA, Gemini",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 70,
+      "file": "vol5-agents/70-computer-use-claude-openai-cua-gemini.md",
+      "word_count": 1000
+    },
+    {
+      "id": "71-voice-agents-pipecat-and-livekit",
+      "title": "Voice Agents: Pipecat and LiveKit",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 71,
+      "file": "vol5-agents/71-voice-agents-pipecat-and-livekit.md",
+      "word_count": 924
+    },
+    {
+      "id": "72-opentelemetry-genai-semantic-conventions",
+      "title": "OpenTelemetry GenAI Semantic Conventions",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 72,
+      "file": "vol5-agents/72-opentelemetry-genai-semantic-conventions.md",
+      "word_count": 915
+    },
+    {
+      "id": "73-agent-observability-langfuse-phoenix-opik",
+      "title": "Agent Observability: Langfuse, Phoenix, Opik",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 73,
+      "file": "vol5-agents/73-agent-observability-langfuse-phoenix-opik.md",
+      "word_count": 883
+    },
+    {
+      "id": "74-multi-agent-debate-and-collaboration",
+      "title": "Multi-Agent Debate and Collaboration",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 74,
+      "file": "vol5-agents/74-multi-agent-debate-and-collaboration.md",
+      "word_count": 950
+    },
+    {
+      "id": "75-failure-modes-why-agents-break",
+      "title": "Failure Modes: Why Agents Break",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 75,
+      "file": "vol5-agents/75-failure-modes-why-agents-break.md",
+      "word_count": 988
+    },
+    {
+      "id": "76-prompt-injection-and-the-pve-defense",
+      "title": "Prompt Injection and the PVE Defense",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 76,
+      "file": "vol5-agents/76-prompt-injection-and-the-pve-defense.md",
+      "word_count": 1129
+    },
+    {
+      "id": "77-orchestration-patterns-supervisor-swarm-hierarchical",
+      "title": "Orchestration Patterns: Supervisor, Swarm, Hierarchical",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 77,
+      "file": "vol5-agents/77-orchestration-patterns-supervisor-swarm-hierarchical.md",
+      "word_count": 985
+    },
+    {
+      "id": "78-production-runtimes-queue-event-cron",
+      "title": "Production Runtimes: Queue, Event, Cron",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 78,
+      "file": "vol5-agents/78-production-runtimes-queue-event-cron.md",
+      "word_count": 1006
+    },
+    {
+      "id": "79-eval-driven-agent-development",
+      "title": "Eval-Driven Agent Development",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 79,
+      "file": "vol5-agents/79-eval-driven-agent-development.md",
+      "word_count": 1030
+    },
+    {
+      "id": "80-agent-workbench-engineering-why-capable-models-still-fail",
+      "title": "Agent Workbench Engineering: Why Capable Models Still Fail",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 80,
+      "file": "vol5-agents/80-agent-workbench-engineering-why-capable-models-still-fail.md",
+      "word_count": 2960
+    },
+    {
+      "id": "81-the-minimal-agent-workbench",
+      "title": "The Minimal Agent Workbench",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 81,
+      "file": "vol5-agents/81-the-minimal-agent-workbench.md",
+      "word_count": 1334
+    },
+    {
+      "id": "82-agent-instructions-as-executable-constraints",
+      "title": "Agent Instructions as Executable Constraints",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 82,
+      "file": "vol5-agents/82-agent-instructions-as-executable-constraints.md",
+      "word_count": 1646
+    },
+    {
+      "id": "83-repo-memory-and-durable-state",
+      "title": "Repo Memory and Durable State",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 83,
+      "file": "vol5-agents/83-repo-memory-and-durable-state.md",
+      "word_count": 1315
+    },
+    {
+      "id": "84-initialization-scripts-for-agents",
+      "title": "Initialization Scripts for Agents",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 84,
+      "file": "vol5-agents/84-initialization-scripts-for-agents.md",
+      "word_count": 1231
+    },
+    {
+      "id": "85-scope-contracts-and-task-boundaries",
+      "title": "Scope Contracts and Task Boundaries",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 85,
+      "file": "vol5-agents/85-scope-contracts-and-task-boundaries.md",
+      "word_count": 1772
+    },
+    {
+      "id": "86-runtime-feedback-loops",
+      "title": "Runtime Feedback Loops",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 86,
+      "file": "vol5-agents/86-runtime-feedback-loops.md",
+      "word_count": 1177
+    },
+    {
+      "id": "87-verification-gates",
+      "title": "Verification Gates",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 87,
+      "file": "vol5-agents/87-verification-gates.md",
+      "word_count": 1322
+    },
+    {
+      "id": "88-reviewer-agent-separate-builder-from-marker",
+      "title": "Reviewer Agent: Separate Builder from Marker",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 88,
+      "file": "vol5-agents/88-reviewer-agent-separate-builder-from-marker.md",
+      "word_count": 1492
+    },
+    {
+      "id": "89-multi-session-handoff",
+      "title": "Multi-Session Handoff",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 89,
+      "file": "vol5-agents/89-multi-session-handoff.md",
+      "word_count": 1657
+    },
+    {
+      "id": "90-the-workbench-on-a-real-repo",
+      "title": "The Workbench on a Real Repo",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 90,
+      "file": "vol5-agents/90-the-workbench-on-a-real-repo.md",
+      "word_count": 1197
+    },
+    {
+      "id": "91-capstone-ship-a-reusable-agent-workbench-pack",
+      "title": "Capstone: Ship a Reusable Agent Workbench Pack",
+      "part": "Part III \u2014 Agent Engineering",
+      "chapter_number": 91,
+      "file": "vol5-agents/91-capstone-ship-a-reusable-agent-workbench-pack.md",
+      "word_count": 1218
+    },
+    {
+      "id": "92-the-shift-from-chatbots-to-long-horizon-agents",
+      "title": "The Shift from Chatbots to Long-Horizon Agents",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 92,
+      "file": "vol5-agents/92-the-shift-from-chatbots-to-long-horizon-agents.md",
+      "word_count": 1358
+    },
+    {
+      "id": "93-star-v-star-quiet-star-self-taught-reasoning",
+      "title": "STaR, V-STaR, Quiet-STaR \u2014 Self-Taught Reasoning",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 93,
+      "file": "vol5-agents/93-star-v-star-quiet-star-self-taught-reasoning.md",
+      "word_count": 1425
+    },
+    {
+      "id": "94-alphaevolve-evolutionary-coding-agents",
+      "title": "AlphaEvolve \u2014 Evolutionary Coding Agents",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 94,
+      "file": "vol5-agents/94-alphaevolve-evolutionary-coding-agents.md",
+      "word_count": 1407
+    },
+    {
+      "id": "95-darwin-godel-machine-open-ended-self-modifying-agents",
+      "title": "Darwin Godel Machine \u2014 Open-Ended Self-Modifying Agents",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 95,
+      "file": "vol5-agents/95-darwin-godel-machine-open-ended-self-modifying-agents.md",
+      "word_count": 1339
+    },
+    {
+      "id": "96-ai-scientist-v2-workshop-level-autonomous-research",
+      "title": "AI Scientist v2 \u2014 Workshop-Level Autonomous Research",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 96,
+      "file": "vol5-agents/96-ai-scientist-v2-workshop-level-autonomous-research.md",
+      "word_count": 1379
+    },
+    {
+      "id": "97-automated-alignment-research-anthropic-aar",
+      "title": "Automated Alignment Research (Anthropic AAR)",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 97,
+      "file": "vol5-agents/97-automated-alignment-research-anthropic-aar.md",
+      "word_count": 1303
+    },
+    {
+      "id": "98-recursive-self-improvement-capability-vs-alignment",
+      "title": "Recursive Self-Improvement \u2014 Capability vs Alignment",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 98,
+      "file": "vol5-agents/98-recursive-self-improvement-capability-vs-alignment.md",
+      "word_count": 1351
+    },
+    {
+      "id": "99-bounded-self-improvement-designs",
+      "title": "Bounded Self-Improvement Designs",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 99,
+      "file": "vol5-agents/99-bounded-self-improvement-designs.md",
+      "word_count": 1301
+    },
+    {
+      "id": "100-the-autonomous-coding-agent-landscape-2026",
+      "title": "The Autonomous Coding Agent Landscape (2026)",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 100,
+      "file": "vol5-agents/100-the-autonomous-coding-agent-landscape-2026.md",
+      "word_count": 1377
+    },
+    {
+      "id": "101-permission-modes-for-autonomous-agents",
+      "title": "Permission Modes for Autonomous Agents",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 101,
+      "file": "vol5-agents/101-permission-modes-for-autonomous-agents.md",
+      "word_count": 1427
+    },
+    {
+      "id": "102-browser-agents-and-long-horizon-web-tasks",
+      "title": "Browser Agents and Long-Horizon Web Tasks",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 102,
+      "file": "vol5-agents/102-browser-agents-and-long-horizon-web-tasks.md",
+      "word_count": 1481
+    },
+    {
+      "id": "103-long-running-background-agents-durable-execution",
+      "title": "Long-Running Background Agents: Durable Execution",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 103,
+      "file": "vol5-agents/103-long-running-background-agents-durable-execution.md",
+      "word_count": 1320
+    },
+    {
+      "id": "104-action-budgets-iteration-caps-and-cost-governors",
+      "title": "Action Budgets, Iteration Caps, and Cost Governors",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 104,
+      "file": "vol5-agents/104-action-budgets-iteration-caps-and-cost-governors.md",
+      "word_count": 1317
+    },
+    {
+      "id": "105-kill-switches-circuit-breakers-and-canary-tokens",
+      "title": "Kill Switches, Circuit Breakers, and Canary Tokens",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 105,
+      "file": "vol5-agents/105-kill-switches-circuit-breakers-and-canary-tokens.md",
+      "word_count": 1534
+    },
+    {
+      "id": "106-human-in-the-loop-propose-then-commit",
+      "title": "Human-in-the-Loop: Propose-Then-Commit",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 106,
+      "file": "vol5-agents/106-human-in-the-loop-propose-then-commit.md",
+      "word_count": 1344
+    },
+    {
+      "id": "107-checkpoints-and-rollback",
+      "title": "Checkpoints and Rollback",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 107,
+      "file": "vol5-agents/107-checkpoints-and-rollback.md",
+      "word_count": 1320
+    },
+    {
+      "id": "108-constitutional-ai-and-rule-overrides",
+      "title": "Constitutional AI and Rule Overrides",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 108,
+      "file": "vol5-agents/108-constitutional-ai-and-rule-overrides.md",
+      "word_count": 1443
+    },
+    {
+      "id": "109-llama-guard-and-input-output-classification",
+      "title": "Llama Guard and Input/Output Classification",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 109,
+      "file": "vol5-agents/109-llama-guard-and-input-output-classification.md",
+      "word_count": 1363
+    },
+    {
+      "id": "110-anthropic-responsible-scaling-policy-v3-0",
+      "title": "Anthropic Responsible Scaling Policy v3.0",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 110,
+      "file": "vol5-agents/110-anthropic-responsible-scaling-policy-v3-0.md",
+      "word_count": 1372
+    },
+    {
+      "id": "111-openai-preparedness-framework-and-deepmind-frontier-safety-framework",
+      "title": "OpenAI Preparedness Framework and DeepMind Frontier Safety Framework",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 111,
+      "file": "vol5-agents/111-openai-preparedness-framework-and-deepmind-frontier-safety-framework.md",
+      "word_count": 1373
+    },
+    {
+      "id": "112-metr-time-horizons-and-external-capability-evaluation",
+      "title": "METR Time Horizons and External Capability Evaluation",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 112,
+      "file": "vol5-agents/112-metr-time-horizons-and-external-capability-evaluation.md",
+      "word_count": 1456
+    },
+    {
+      "id": "113-cais-caisi-and-societal-scale-risk",
+      "title": "CAIS, CAISI, and Societal-Scale Risk",
+      "part": "Part IV \u2014 Autonomous Systems",
+      "chapter_number": 113,
+      "file": "vol5-agents/113-cais-caisi-and-societal-scale-risk.md",
+      "word_count": 1429
+    },
+    {
+      "id": "114-why-multi-agent",
+      "title": "Why Multi-Agent?",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 114,
+      "file": "vol5-agents/114-why-multi-agent.md",
+      "word_count": 2443
+    },
+    {
+      "id": "115-heritage-of-fipa-acl-and-speech-acts",
+      "title": "Heritage of FIPA-ACL and Speech Acts",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 115,
+      "file": "vol5-agents/115-heritage-of-fipa-acl-and-speech-acts.md",
+      "word_count": 1921
+    },
+    {
+      "id": "116-communication-protocols",
+      "title": "Communication Protocols",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 116,
+      "file": "vol5-agents/116-communication-protocols.md",
+      "word_count": 5055
+    },
+    {
+      "id": "117-the-multi-agent-primitive-model",
+      "title": "The Multi-Agent Primitive Model",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 117,
+      "file": "vol5-agents/117-the-multi-agent-primitive-model.md",
+      "word_count": 1603
+    },
+    {
+      "id": "118-supervisor-orchestrator-worker-pattern",
+      "title": "Supervisor / Orchestrator-Worker Pattern",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 118,
+      "file": "vol5-agents/118-supervisor-orchestrator-worker-pattern.md",
+      "word_count": 1347
+    },
+    {
+      "id": "119-hierarchical-architecture-and-its-failure-mode",
+      "title": "Hierarchical Architecture and Its Failure Mode",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 119,
+      "file": "vol5-agents/119-hierarchical-architecture-and-its-failure-mode.md",
+      "word_count": 1112
+    },
+    {
+      "id": "120-society-of-mind-and-multi-agent-debate",
+      "title": "Society of Mind and Multi-Agent Debate",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 120,
+      "file": "vol5-agents/120-society-of-mind-and-multi-agent-debate.md",
+      "word_count": 1149
+    },
+    {
+      "id": "121-role-specialization-planner-critic-executor-verifier",
+      "title": "Role Specialization \u2014 Planner, Critic, Executor, Verifier",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 121,
+      "file": "vol5-agents/121-role-specialization-planner-critic-executor-verifier.md",
+      "word_count": 1256
+    },
+    {
+      "id": "122-parallel-swarm-networked-architectures",
+      "title": "Parallel / Swarm / Networked Architectures",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 122,
+      "file": "vol5-agents/122-parallel-swarm-networked-architectures.md",
+      "word_count": 1158
+    },
+    {
+      "id": "123-group-chat-and-speaker-selection",
+      "title": "Group Chat and Speaker Selection",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 123,
+      "file": "vol5-agents/123-group-chat-and-speaker-selection.md",
+      "word_count": 1145
+    },
+    {
+      "id": "124-handoffs-and-routines-stateless-orchestration",
+      "title": "Handoffs and Routines \u2014 Stateless Orchestration",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 124,
+      "file": "vol5-agents/124-handoffs-and-routines-stateless-orchestration.md",
+      "word_count": 1167
+    },
+    {
+      "id": "125-a2a-the-agent-to-agent-protocol",
+      "title": "A2A \u2014 The Agent-to-Agent Protocol",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 125,
+      "file": "vol5-agents/125-a2a-the-agent-to-agent-protocol.md",
+      "word_count": 1160
+    },
+    {
+      "id": "126-shared-memory-and-blackboard-patterns",
+      "title": "Shared Memory and Blackboard Patterns",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 126,
+      "file": "vol5-agents/126-shared-memory-and-blackboard-patterns.md",
+      "word_count": 1735
+    },
+    {
+      "id": "127-consensus-and-byzantine-fault-tolerance-for-agents",
+      "title": "Consensus and Byzantine Fault Tolerance for Agents",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 127,
+      "file": "vol5-agents/127-consensus-and-byzantine-fault-tolerance-for-agents.md",
+      "word_count": 1671
+    },
+    {
+      "id": "128-voting-self-consistency-and-debate-topology",
+      "title": "Voting, Self-Consistency, and Debate Topology",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 128,
+      "file": "vol5-agents/128-voting-self-consistency-and-debate-topology.md",
+      "word_count": 1610
+    },
+    {
+      "id": "129-negotiation-and-bargaining",
+      "title": "Negotiation and Bargaining",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 129,
+      "file": "vol5-agents/129-negotiation-and-bargaining.md",
+      "word_count": 1606
+    },
+    {
+      "id": "130-generative-agents-and-emergent-simulation",
+      "title": "Generative Agents and Emergent Simulation",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 130,
+      "file": "vol5-agents/130-generative-agents-and-emergent-simulation.md",
+      "word_count": 1539
+    },
+    {
+      "id": "131-theory-of-mind-and-emergent-coordination",
+      "title": "Theory of Mind and Emergent Coordination",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 131,
+      "file": "vol5-agents/131-theory-of-mind-and-emergent-coordination.md",
+      "word_count": 1576
+    },
+    {
+      "id": "132-swarm-optimization-for-llms-pso-aco",
+      "title": "Swarm Optimization for LLMs (PSO, ACO)",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 132,
+      "file": "vol5-agents/132-swarm-optimization-for-llms-pso-aco.md",
+      "word_count": 1541
+    },
+    {
+      "id": "133-marl-maddpg-qmix-mappo",
+      "title": "MARL \u2014 MADDPG, QMIX, MAPPO",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 133,
+      "file": "vol5-agents/133-marl-maddpg-qmix-mappo.md",
+      "word_count": 1666
+    },
+    {
+      "id": "134-agent-economies-token-incentives-reputation",
+      "title": "Agent Economies, Token Incentives, Reputation",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 134,
+      "file": "vol5-agents/134-agent-economies-token-incentives-reputation.md",
+      "word_count": 1684
+    },
+    {
+      "id": "135-production-scaling-queues-checkpoints-durability",
+      "title": "Production Scaling \u2014 Queues, Checkpoints, Durability",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 135,
+      "file": "vol5-agents/135-production-scaling-queues-checkpoints-durability.md",
+      "word_count": 1590
+    },
+    {
+      "id": "136-failure-modes-mast-groupthink-monoculture-cascading-errors",
+      "title": "Failure Modes \u2014 MAST, Groupthink, Monoculture, Cascading Errors",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 136,
+      "file": "vol5-agents/136-failure-modes-mast-groupthink-monoculture-cascading-errors.md",
+      "word_count": 1668
+    },
+    {
+      "id": "137-evaluation-and-coordination-benchmarks",
+      "title": "Evaluation and Coordination Benchmarks",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 137,
+      "file": "vol5-agents/137-evaluation-and-coordination-benchmarks.md",
+      "word_count": 1505
+    },
+    {
+      "id": "138-case-studies-and-the-2026-state-of-the-art",
+      "title": "Case Studies and the 2026 State of the Art",
+      "part": "Part V \u2014 Multi-Agent & Swarms",
+      "chapter_number": 138,
+      "file": "vol5-agents/138-case-studies-and-the-2026-state-of-the-art.md",
+      "word_count": 1845
+    }
+  ]
+}

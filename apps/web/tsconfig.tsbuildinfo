@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/types.ts","./src/api/client.ts","./src/components/QuizPanel.tsx","./src/components/Sidebar.tsx","./src/components/TutorChat.tsx","./src/pages/ChapterPage.tsx","./src/pages/Home.tsx","./src/pages/VolumePage.tsx"],"version":"5.9.3"}

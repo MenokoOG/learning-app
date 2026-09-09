@@ -1,0 +1,17 @@
+{
+  "name": "ai-from-scratch-learning-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local learning app for the AI Engineering From Scratch course — lesson browser + AI tutor.",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/api & npm run dev --workspace apps/web & wait",
+    "dev:api": "npm run dev --workspace apps/api",
+    "dev:web": "npm run dev --workspace apps/web",
+    "build": "npm run build --workspace apps/api && npm run build --workspace apps/web",
+    "install:all": "npm install"
+  }
+}

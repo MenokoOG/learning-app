@@ -1,0 +1,568 @@
+{
+  "id": "vol4-llms",
+  "title": "Large Language Models: Generation, Reinforcement, Pretraining, and Engineering",
+  "phases": "08, 09, 10, 11",
+  "chapter_count": 70,
+  "chapters": [
+    {
+      "id": "01-about-this-volume",
+      "title": "About This Volume",
+      "part": null,
+      "chapter_number": 1,
+      "file": "vol4-llms/01-about-this-volume.md",
+      "word_count": 139
+    },
+    {
+      "id": "02-how-to-use-this-book",
+      "title": "How to Use This Book",
+      "part": null,
+      "chapter_number": 2,
+      "file": "vol4-llms/02-how-to-use-this-book.md",
+      "word_count": 206
+    },
+    {
+      "id": "03-generative-models-taxonomy-history",
+      "title": "Generative Models \u2014 Taxonomy & History",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 3,
+      "file": "vol4-llms/03-generative-models-taxonomy-history.md",
+      "word_count": 1741
+    },
+    {
+      "id": "04-autoencoders-variational-autoencoders-vae",
+      "title": "Autoencoders & Variational Autoencoders (VAE)",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 4,
+      "file": "vol4-llms/04-autoencoders-variational-autoencoders-vae.md",
+      "word_count": 1683
+    },
+    {
+      "id": "05-gans-generator-vs-discriminator",
+      "title": "GANs \u2014 Generator vs Discriminator",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 5,
+      "file": "vol4-llms/05-gans-generator-vs-discriminator.md",
+      "word_count": 1662
+    },
+    {
+      "id": "06-conditional-gans-pix2pix",
+      "title": "Conditional GANs & Pix2Pix",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 6,
+      "file": "vol4-llms/06-conditional-gans-pix2pix.md",
+      "word_count": 1502
+    },
+    {
+      "id": "07-stylegan",
+      "title": "StyleGAN",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 7,
+      "file": "vol4-llms/07-stylegan.md",
+      "word_count": 1592
+    },
+    {
+      "id": "08-diffusion-models-ddpm-from-scratch",
+      "title": "Diffusion Models \u2014 DDPM from Scratch",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 8,
+      "file": "vol4-llms/08-diffusion-models-ddpm-from-scratch.md",
+      "word_count": 1880
+    },
+    {
+      "id": "09-latent-diffusion-stable-diffusion",
+      "title": "Latent Diffusion & Stable Diffusion",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 9,
+      "file": "vol4-llms/09-latent-diffusion-stable-diffusion.md",
+      "word_count": 1799
+    },
+    {
+      "id": "10-controlnet-lora-conditioning",
+      "title": "ControlNet, LoRA & Conditioning",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 10,
+      "file": "vol4-llms/10-controlnet-lora-conditioning.md",
+      "word_count": 1831
+    },
+    {
+      "id": "11-inpainting-outpainting-image-editing",
+      "title": "Inpainting, Outpainting & Image Editing",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 11,
+      "file": "vol4-llms/11-inpainting-outpainting-image-editing.md",
+      "word_count": 1691
+    },
+    {
+      "id": "12-video-generation",
+      "title": "Video Generation",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 12,
+      "file": "vol4-llms/12-video-generation.md",
+      "word_count": 1672
+    },
+    {
+      "id": "13-audio-generation",
+      "title": "Audio Generation",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 13,
+      "file": "vol4-llms/13-audio-generation.md",
+      "word_count": 1514
+    },
+    {
+      "id": "14-3d-generation",
+      "title": "3D Generation",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 14,
+      "file": "vol4-llms/14-3d-generation.md",
+      "word_count": 1572
+    },
+    {
+      "id": "15-flow-matching-rectified-flows",
+      "title": "Flow Matching & Rectified Flows",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 15,
+      "file": "vol4-llms/15-flow-matching-rectified-flows.md",
+      "word_count": 1611
+    },
+    {
+      "id": "16-evaluation-fid-clip-score-human-preference",
+      "title": "Evaluation \u2014 FID, CLIP Score, Human Preference",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 16,
+      "file": "vol4-llms/16-evaluation-fid-clip-score-human-preference.md",
+      "word_count": 1819
+    },
+    {
+      "id": "17-visual-autoregressive-modeling-var-next-scale-prediction",
+      "title": "Visual Autoregressive Modeling (VAR): Next-Scale Prediction",
+      "part": "Part I \u2014 Generative AI",
+      "chapter_number": 17,
+      "file": "vol4-llms/17-visual-autoregressive-modeling-var-next-scale-prediction.md",
+      "word_count": 1583
+    },
+    {
+      "id": "18-mdps-states-actions-rewards",
+      "title": "MDPs, States, Actions & Rewards",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 18,
+      "file": "vol4-llms/18-mdps-states-actions-rewards.md",
+      "word_count": 1826
+    },
+    {
+      "id": "19-dynamic-programming-policy-iteration-value-iteration",
+      "title": "Dynamic Programming \u2014 Policy Iteration & Value Iteration",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 19,
+      "file": "vol4-llms/19-dynamic-programming-policy-iteration-value-iteration.md",
+      "word_count": 1701
+    },
+    {
+      "id": "20-monte-carlo-methods-learning-from-complete-episodes",
+      "title": "Monte Carlo Methods \u2014 Learning from Complete Episodes",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 20,
+      "file": "vol4-llms/20-monte-carlo-methods-learning-from-complete-episodes.md",
+      "word_count": 1732
+    },
+    {
+      "id": "21-temporal-difference-q-learning-sarsa",
+      "title": "Temporal Difference \u2014 Q-Learning & SARSA",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 21,
+      "file": "vol4-llms/21-temporal-difference-q-learning-sarsa.md",
+      "word_count": 1733
+    },
+    {
+      "id": "22-deep-q-networks-dqn",
+      "title": "Deep Q-Networks (DQN)",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 22,
+      "file": "vol4-llms/22-deep-q-networks-dqn.md",
+      "word_count": 1807
+    },
+    {
+      "id": "23-policy-gradient-reinforce-from-scratch",
+      "title": "Policy Gradient \u2014 REINFORCE from Scratch",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 23,
+      "file": "vol4-llms/23-policy-gradient-reinforce-from-scratch.md",
+      "word_count": 1722
+    },
+    {
+      "id": "24-actor-critic-a2c-and-a3c",
+      "title": "Actor-Critic \u2014 A2C and A3C",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 24,
+      "file": "vol4-llms/24-actor-critic-a2c-and-a3c.md",
+      "word_count": 1682
+    },
+    {
+      "id": "25-proximal-policy-optimization-ppo",
+      "title": "Proximal Policy Optimization (PPO)",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 25,
+      "file": "vol4-llms/25-proximal-policy-optimization-ppo.md",
+      "word_count": 1780
+    },
+    {
+      "id": "26-reward-modeling-rlhf",
+      "title": "Reward Modeling & RLHF",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 26,
+      "file": "vol4-llms/26-reward-modeling-rlhf.md",
+      "word_count": 2215
+    },
+    {
+      "id": "27-multi-agent-rl",
+      "title": "Multi-Agent RL",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 27,
+      "file": "vol4-llms/27-multi-agent-rl.md",
+      "word_count": 1951
+    },
+    {
+      "id": "28-sim-to-real-transfer",
+      "title": "Sim-to-Real Transfer",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 28,
+      "file": "vol4-llms/28-sim-to-real-transfer.md",
+      "word_count": 1796
+    },
+    {
+      "id": "29-rl-for-games-alphazero-muzero-and-the-llm-reasoning-era",
+      "title": "RL for Games \u2014 AlphaZero, MuZero, and the LLM-Reasoning Era",
+      "part": "Part II \u2014 Reinforcement Learning",
+      "chapter_number": 29,
+      "file": "vol4-llms/29-rl-for-games-alphazero-muzero-and-the-llm-reasoning-era.md",
+      "word_count": 2369
+    },
+    {
+      "id": "30-tokenizers-bpe-wordpiece-sentencepiece",
+      "title": "Tokenizers: BPE, WordPiece, SentencePiece",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 30,
+      "file": "vol4-llms/30-tokenizers-bpe-wordpiece-sentencepiece.md",
+      "word_count": 3157
+    },
+    {
+      "id": "31-building-a-tokenizer-from-scratch",
+      "title": "Building a Tokenizer from Scratch",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 31,
+      "file": "vol4-llms/31-building-a-tokenizer-from-scratch.md",
+      "word_count": 2425
+    },
+    {
+      "id": "32-data-pipelines-for-pre-training",
+      "title": "Data Pipelines for Pre-Training",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 32,
+      "file": "vol4-llms/32-data-pipelines-for-pre-training.md",
+      "word_count": 2791
+    },
+    {
+      "id": "33-pre-training-a-mini-gpt-124m-parameters",
+      "title": "Pre-Training a Mini GPT (124M Parameters)",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 33,
+      "file": "vol4-llms/33-pre-training-a-mini-gpt-124m-parameters.md",
+      "word_count": 3740
+    },
+    {
+      "id": "34-scaling-distributed-training-fsdp-deepspeed",
+      "title": "Scaling: Distributed Training, FSDP, DeepSpeed",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 34,
+      "file": "vol4-llms/34-scaling-distributed-training-fsdp-deepspeed.md",
+      "word_count": 3900
+    },
+    {
+      "id": "35-instruction-tuning-sft",
+      "title": "Instruction Tuning (SFT)",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 35,
+      "file": "vol4-llms/35-instruction-tuning-sft.md",
+      "word_count": 3560
+    },
+    {
+      "id": "36-rlhf-reward-model-ppo",
+      "title": "RLHF: Reward Model + PPO",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 36,
+      "file": "vol4-llms/36-rlhf-reward-model-ppo.md",
+      "word_count": 3840
+    },
+    {
+      "id": "37-dpo-direct-preference-optimization",
+      "title": "DPO: Direct Preference Optimization",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 37,
+      "file": "vol4-llms/37-dpo-direct-preference-optimization.md",
+      "word_count": 4101
+    },
+    {
+      "id": "38-constitutional-ai-and-self-improvement",
+      "title": "Constitutional AI and Self-Improvement",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 38,
+      "file": "vol4-llms/38-constitutional-ai-and-self-improvement.md",
+      "word_count": 2995
+    },
+    {
+      "id": "39-evaluation-benchmarks-evals-lm-harness",
+      "title": "Evaluation: Benchmarks, Evals, LM Harness",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 39,
+      "file": "vol4-llms/39-evaluation-benchmarks-evals-lm-harness.md",
+      "word_count": 3222
+    },
+    {
+      "id": "40-quantization-making-models-fit",
+      "title": "Quantization: Making Models Fit",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 40,
+      "file": "vol4-llms/40-quantization-making-models-fit.md",
+      "word_count": 5353
+    },
+    {
+      "id": "41-inference-optimization",
+      "title": "Inference Optimization",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 41,
+      "file": "vol4-llms/41-inference-optimization.md",
+      "word_count": 4457
+    },
+    {
+      "id": "42-building-a-complete-llm-pipeline",
+      "title": "Building a Complete LLM Pipeline",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 42,
+      "file": "vol4-llms/42-building-a-complete-llm-pipeline.md",
+      "word_count": 2752
+    },
+    {
+      "id": "43-open-models-architecture-walkthroughs",
+      "title": "Open Models: Architecture Walkthroughs",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 43,
+      "file": "vol4-llms/43-open-models-architecture-walkthroughs.md",
+      "word_count": 2692
+    },
+    {
+      "id": "44-speculative-decoding-and-eagle-3",
+      "title": "Speculative Decoding and EAGLE-3",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 44,
+      "file": "vol4-llms/44-speculative-decoding-and-eagle-3.md",
+      "word_count": 2340
+    },
+    {
+      "id": "45-differential-attention-v2",
+      "title": "Differential Attention (V2)",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 45,
+      "file": "vol4-llms/45-differential-attention-v2.md",
+      "word_count": 2248
+    },
+    {
+      "id": "46-native-sparse-attention-deepseek-nsa",
+      "title": "Native Sparse Attention (DeepSeek NSA)",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 46,
+      "file": "vol4-llms/46-native-sparse-attention-deepseek-nsa.md",
+      "word_count": 2119
+    },
+    {
+      "id": "47-multi-token-prediction-mtp",
+      "title": "Multi-Token Prediction (MTP)",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 47,
+      "file": "vol4-llms/47-multi-token-prediction-mtp.md",
+      "word_count": 2170
+    },
+    {
+      "id": "48-dualpipe-parallelism",
+      "title": "DualPipe Parallelism",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 48,
+      "file": "vol4-llms/48-dualpipe-parallelism.md",
+      "word_count": 2115
+    },
+    {
+      "id": "49-deepseek-v3-architecture-walkthrough",
+      "title": "DeepSeek-V3 Architecture Walkthrough",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 49,
+      "file": "vol4-llms/49-deepseek-v3-architecture-walkthrough.md",
+      "word_count": 2056
+    },
+    {
+      "id": "50-jamba-hybrid-ssm-transformer",
+      "title": "Jamba \u2014 Hybrid SSM-Transformer",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 50,
+      "file": "vol4-llms/50-jamba-hybrid-ssm-transformer.md",
+      "word_count": 2143
+    },
+    {
+      "id": "51-async-and-hogwild-inference",
+      "title": "Async and Hogwild! Inference",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 51,
+      "file": "vol4-llms/51-async-and-hogwild-inference.md",
+      "word_count": 2358
+    },
+    {
+      "id": "52-speculative-decoding-and-eagle",
+      "title": "Speculative Decoding and EAGLE",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 52,
+      "file": "vol4-llms/52-speculative-decoding-and-eagle.md",
+      "word_count": 2056
+    },
+    {
+      "id": "53-gradient-checkpointing-and-activation-recomputation",
+      "title": "Gradient Checkpointing and Activation Recomputation",
+      "part": "Part III \u2014 LLMs from Scratch",
+      "chapter_number": 53,
+      "file": "vol4-llms/53-gradient-checkpointing-and-activation-recomputation.md",
+      "word_count": 2086
+    },
+    {
+      "id": "54-prompt-engineering-techniques-patterns",
+      "title": "Prompt Engineering: Techniques & Patterns",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 54,
+      "file": "vol4-llms/54-prompt-engineering-techniques-patterns.md",
+      "word_count": 5413
+    },
+    {
+      "id": "55-few-shot-chain-of-thought-tree-of-thought",
+      "title": "Few-Shot, Chain-of-Thought, Tree-of-Thought",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 55,
+      "file": "vol4-llms/55-few-shot-chain-of-thought-tree-of-thought.md",
+      "word_count": 3378
+    },
+    {
+      "id": "56-structured-outputs-json-schema-validation-constrained-decoding",
+      "title": "Structured Outputs: JSON, Schema Validation, Constrained Decoding",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 56,
+      "file": "vol4-llms/56-structured-outputs-json-schema-validation-constrained-decoding.md",
+      "word_count": 3276
+    },
+    {
+      "id": "57-embeddings-vector-representations",
+      "title": "Embeddings & Vector Representations",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 57,
+      "file": "vol4-llms/57-embeddings-vector-representations.md",
+      "word_count": 3329
+    },
+    {
+      "id": "58-context-engineering-windows-budgets-memory-and-retrieval",
+      "title": "Context Engineering: Windows, Budgets, Memory, and Retrieval",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 58,
+      "file": "vol4-llms/58-context-engineering-windows-budgets-memory-and-retrieval.md",
+      "word_count": 3718
+    },
+    {
+      "id": "59-rag-retrieval-augmented-generation",
+      "title": "RAG (Retrieval-Augmented Generation)",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 59,
+      "file": "vol4-llms/59-rag-retrieval-augmented-generation.md",
+      "word_count": 2790
+    },
+    {
+      "id": "60-advanced-rag-chunking-reranking-hybrid-search",
+      "title": "Advanced RAG (Chunking, Reranking, Hybrid Search)",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 60,
+      "file": "vol4-llms/60-advanced-rag-chunking-reranking-hybrid-search.md",
+      "word_count": 3529
+    },
+    {
+      "id": "61-fine-tuning-with-lora-qlora",
+      "title": "Fine-Tuning with LoRA & QLoRA",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 61,
+      "file": "vol4-llms/61-fine-tuning-with-lora-qlora.md",
+      "word_count": 3502
+    },
+    {
+      "id": "62-function-calling-tool-use",
+      "title": "Function Calling & Tool Use",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 62,
+      "file": "vol4-llms/62-function-calling-tool-use.md",
+      "word_count": 4445
+    },
+    {
+      "id": "63-evaluation-testing-llm-applications",
+      "title": "Evaluation & Testing LLM Applications",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 63,
+      "file": "vol4-llms/63-evaluation-testing-llm-applications.md",
+      "word_count": 5101
+    },
+    {
+      "id": "64-caching-rate-limiting-cost-optimization",
+      "title": "Caching, Rate Limiting & Cost Optimization",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 64,
+      "file": "vol4-llms/64-caching-rate-limiting-cost-optimization.md",
+      "word_count": 4804
+    },
+    {
+      "id": "65-guardrails-safety-content-filtering",
+      "title": "Guardrails, Safety & Content Filtering",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 65,
+      "file": "vol4-llms/65-guardrails-safety-content-filtering.md",
+      "word_count": 5292
+    },
+    {
+      "id": "66-building-a-production-llm-application",
+      "title": "Building a Production LLM Application",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 66,
+      "file": "vol4-llms/66-building-a-production-llm-application.md",
+      "word_count": 5676
+    },
+    {
+      "id": "67-model-context-protocol-mcp",
+      "title": "Model Context Protocol (MCP)",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 67,
+      "file": "vol4-llms/67-model-context-protocol-mcp.md",
+      "word_count": 1712
+    },
+    {
+      "id": "68-prompt-caching-and-context-caching",
+      "title": "Prompt Caching and Context Caching",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 68,
+      "file": "vol4-llms/68-prompt-caching-and-context-caching.md",
+      "word_count": 1851
+    },
+    {
+      "id": "69-agent-state-machines-graphs-nodes-checkpoints",
+      "title": "Agent State Machines \u2014 Graphs, Nodes, Checkpoints",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 69,
+      "file": "vol4-llms/69-agent-state-machines-graphs-nodes-checkpoints.md",
+      "word_count": 2076
+    },
+    {
+      "id": "70-agent-framework-tradeoffs-graph-role-and-actor-orchestration",
+      "title": "Agent Framework Tradeoffs \u2014 Graph, Role, and Actor Orchestration",
+      "part": "Part IV \u2014 LLM Engineering",
+      "chapter_number": 70,
+      "file": "vol4-llms/70-agent-framework-tradeoffs-graph-role-and-actor-orchestration.md",
+      "word_count": 1960
+    }
+  ]
+}

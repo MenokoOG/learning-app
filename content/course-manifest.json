@@ -1,0 +1,47 @@
+{
+  "course": "AI Engineering From Scratch",
+  "volumes": [
+    {
+      "id": "vol1-foundations",
+      "title": "Foundations: Math, Tooling, and Classical Machine Learning",
+      "phases": "00, 01, 02",
+      "chapter_count": 54,
+      "manifest": "vol1-foundations/manifest.json"
+    },
+    {
+      "id": "vol2-deep-learning",
+      "title": "Deep Learning: Networks, Vision, and Speech",
+      "phases": "03, 04, 06",
+      "chapter_count": 57,
+      "manifest": "vol2-deep-learning/manifest.json"
+    },
+    {
+      "id": "vol3-language",
+      "title": "Language: NLP Foundations and the Transformer",
+      "phases": "05, 07",
+      "chapter_count": 47,
+      "manifest": "vol3-language/manifest.json"
+    },
+    {
+      "id": "vol4-llms",
+      "title": "Large Language Models: Generation, Reinforcement, Pretraining, and Engineering",
+      "phases": "08, 09, 10, 11",
+      "chapter_count": 70,
+      "manifest": "vol4-llms/manifest.json"
+    },
+    {
+      "id": "vol5-agents",
+      "title": "Agents: Multimodality, Protocols, Autonomy, and Swarms",
+      "phases": "12, 13, 14, 15, 16",
+      "chapter_count": 138,
+      "manifest": "vol5-agents/manifest.json"
+    },
+    {
+      "id": "vol6-production",
+      "title": "Production: Infrastructure, Safety, and Capstones",
+      "phases": "17, 18, 19",
+      "chapter_count": 143,
+      "manifest": "vol6-production/manifest.json"
+    }
+  ]
+}

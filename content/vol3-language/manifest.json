@@ -1,0 +1,384 @@
+{
+  "id": "vol3-language",
+  "title": "Language: NLP Foundations and the Transformer",
+  "phases": "05, 07",
+  "chapter_count": 47,
+  "chapters": [
+    {
+      "id": "01-about-this-volume",
+      "title": "About This Volume",
+      "part": null,
+      "chapter_number": 1,
+      "file": "vol3-language/01-about-this-volume.md",
+      "word_count": 137
+    },
+    {
+      "id": "02-how-to-use-this-book",
+      "title": "How to Use This Book",
+      "part": null,
+      "chapter_number": 2,
+      "file": "vol3-language/02-how-to-use-this-book.md",
+      "word_count": 204
+    },
+    {
+      "id": "03-text-processing-tokenization-stemming-lemmatization",
+      "title": "Text Processing \u2014 Tokenization, Stemming, Lemmatization",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 3,
+      "file": "vol3-language/03-text-processing-tokenization-stemming-lemmatization.md",
+      "word_count": 1514
+    },
+    {
+      "id": "04-bag-of-words-tf-idf-and-text-representation",
+      "title": "Bag of Words, TF-IDF, and Text Representation",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 4,
+      "file": "vol3-language/04-bag-of-words-tf-idf-and-text-representation.md",
+      "word_count": 1677
+    },
+    {
+      "id": "05-word-embeddings-word2vec-from-scratch",
+      "title": "Word Embeddings \u2014 Word2Vec from Scratch",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 5,
+      "file": "vol3-language/05-word-embeddings-word2vec-from-scratch.md",
+      "word_count": 1691
+    },
+    {
+      "id": "06-glove-fasttext-and-subword-embeddings",
+      "title": "GloVe, FastText, and Subword Embeddings",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 6,
+      "file": "vol3-language/06-glove-fasttext-and-subword-embeddings.md",
+      "word_count": 1574
+    },
+    {
+      "id": "07-sentiment-analysis",
+      "title": "Sentiment Analysis",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 7,
+      "file": "vol3-language/07-sentiment-analysis.md",
+      "word_count": 1756
+    },
+    {
+      "id": "08-named-entity-recognition",
+      "title": "Named Entity Recognition",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 8,
+      "file": "vol3-language/08-named-entity-recognition.md",
+      "word_count": 1766
+    },
+    {
+      "id": "09-pos-tagging-and-syntactic-parsing",
+      "title": "POS Tagging and Syntactic Parsing",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 9,
+      "file": "vol3-language/09-pos-tagging-and-syntactic-parsing.md",
+      "word_count": 1642
+    },
+    {
+      "id": "10-cnns-and-rnns-for-text",
+      "title": "CNNs and RNNs for Text",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 10,
+      "file": "vol3-language/10-cnns-and-rnns-for-text.md",
+      "word_count": 1439
+    },
+    {
+      "id": "11-sequence-to-sequence-models",
+      "title": "Sequence-to-Sequence Models",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 11,
+      "file": "vol3-language/11-sequence-to-sequence-models.md",
+      "word_count": 1474
+    },
+    {
+      "id": "12-attention-mechanism-the-breakthrough",
+      "title": "Attention Mechanism \u2014 The Breakthrough",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 12,
+      "file": "vol3-language/12-attention-mechanism-the-breakthrough.md",
+      "word_count": 1651
+    },
+    {
+      "id": "13-machine-translation",
+      "title": "Machine Translation",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 13,
+      "file": "vol3-language/13-machine-translation.md",
+      "word_count": 1544
+    },
+    {
+      "id": "14-text-summarization",
+      "title": "Text Summarization",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 14,
+      "file": "vol3-language/14-text-summarization.md",
+      "word_count": 1492
+    },
+    {
+      "id": "15-question-answering-systems",
+      "title": "Question Answering Systems",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 15,
+      "file": "vol3-language/15-question-answering-systems.md",
+      "word_count": 1662
+    },
+    {
+      "id": "16-information-retrieval-and-search",
+      "title": "Information Retrieval and Search",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 16,
+      "file": "vol3-language/16-information-retrieval-and-search.md",
+      "word_count": 1763
+    },
+    {
+      "id": "17-topic-modeling-lda-and-bertopic",
+      "title": "Topic Modeling \u2014 LDA and BERTopic",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 17,
+      "file": "vol3-language/17-topic-modeling-lda-and-bertopic.md",
+      "word_count": 1340
+    },
+    {
+      "id": "18-text-generation-before-transformers-n-gram-language-models",
+      "title": "Text Generation Before Transformers \u2014 N-gram Language Models",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 18,
+      "file": "vol3-language/18-text-generation-before-transformers-n-gram-language-models.md",
+      "word_count": 2043
+    },
+    {
+      "id": "19-chatbots-rule-based-to-neural-to-llm-agents",
+      "title": "Chatbots \u2014 Rule-Based to Neural to LLM Agents",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 19,
+      "file": "vol3-language/19-chatbots-rule-based-to-neural-to-llm-agents.md",
+      "word_count": 2525
+    },
+    {
+      "id": "20-multilingual-nlp",
+      "title": "Multilingual NLP",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 20,
+      "file": "vol3-language/20-multilingual-nlp.md",
+      "word_count": 1757
+    },
+    {
+      "id": "21-subword-tokenization-bpe-wordpiece-unigram-sentencepiece",
+      "title": "Subword Tokenization \u2014 BPE, WordPiece, Unigram, SentencePiece",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 21,
+      "file": "vol3-language/21-subword-tokenization-bpe-wordpiece-unigram-sentencepiece.md",
+      "word_count": 1349
+    },
+    {
+      "id": "22-structured-outputs-constrained-decoding",
+      "title": "Structured Outputs & Constrained Decoding",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 22,
+      "file": "vol3-language/22-structured-outputs-constrained-decoding.md",
+      "word_count": 1436
+    },
+    {
+      "id": "23-natural-language-inference-textual-entailment",
+      "title": "Natural Language Inference \u2014 Textual Entailment",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 23,
+      "file": "vol3-language/23-natural-language-inference-textual-entailment.md",
+      "word_count": 1397
+    },
+    {
+      "id": "24-embedding-models-the-2026-deep-dive",
+      "title": "Embedding Models \u2014 The 2026 Deep Dive",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 24,
+      "file": "vol3-language/24-embedding-models-the-2026-deep-dive.md",
+      "word_count": 1547
+    },
+    {
+      "id": "25-chunking-strategies-for-rag",
+      "title": "Chunking Strategies for RAG",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 25,
+      "file": "vol3-language/25-chunking-strategies-for-rag.md",
+      "word_count": 1526
+    },
+    {
+      "id": "26-coreference-resolution",
+      "title": "Coreference Resolution",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 26,
+      "file": "vol3-language/26-coreference-resolution.md",
+      "word_count": 1311
+    },
+    {
+      "id": "27-entity-linking-disambiguation",
+      "title": "Entity Linking & Disambiguation",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 27,
+      "file": "vol3-language/27-entity-linking-disambiguation.md",
+      "word_count": 1377
+    },
+    {
+      "id": "28-relation-extraction-knowledge-graph-construction",
+      "title": "Relation Extraction & Knowledge Graph Construction",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 28,
+      "file": "vol3-language/28-relation-extraction-knowledge-graph-construction.md",
+      "word_count": 1431
+    },
+    {
+      "id": "29-llm-evaluation-ragas-deepeval-g-eval",
+      "title": "LLM Evaluation \u2014 RAGAS, DeepEval, G-Eval",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 29,
+      "file": "vol3-language/29-llm-evaluation-ragas-deepeval-g-eval.md",
+      "word_count": 1582
+    },
+    {
+      "id": "30-long-context-evaluation-niah-ruler-longbench-mrcr",
+      "title": "Long-Context Evaluation \u2014 NIAH, RULER, LongBench, MRCR",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 30,
+      "file": "vol3-language/30-long-context-evaluation-niah-ruler-longbench-mrcr.md",
+      "word_count": 1529
+    },
+    {
+      "id": "31-dialogue-state-tracking",
+      "title": "Dialogue State Tracking",
+      "part": "Part I \u2014 NLP \u2014 Foundations to Advanced",
+      "chapter_number": 31,
+      "file": "vol3-language/31-dialogue-state-tracking.md",
+      "word_count": 1454
+    },
+    {
+      "id": "32-why-transformers-the-problems-with-rnns",
+      "title": "Why Transformers \u2014 The Problems with RNNs",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 32,
+      "file": "vol3-language/32-why-transformers-the-problems-with-rnns.md",
+      "word_count": 1463
+    },
+    {
+      "id": "33-self-attention-from-scratch",
+      "title": "Self-Attention from Scratch",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 33,
+      "file": "vol3-language/33-self-attention-from-scratch.md",
+      "word_count": 1691
+    },
+    {
+      "id": "34-multi-head-attention",
+      "title": "Multi-Head Attention",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 34,
+      "file": "vol3-language/34-multi-head-attention.md",
+      "word_count": 1478
+    },
+    {
+      "id": "35-positional-encoding-sinusoidal-rope-alibi",
+      "title": "Positional Encoding \u2014 Sinusoidal, RoPE, ALiBi",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 35,
+      "file": "vol3-language/35-positional-encoding-sinusoidal-rope-alibi.md",
+      "word_count": 1632
+    },
+    {
+      "id": "36-the-full-transformer-encoder-decoder",
+      "title": "The Full Transformer \u2014 Encoder + Decoder",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 36,
+      "file": "vol3-language/36-the-full-transformer-encoder-decoder.md",
+      "word_count": 1453
+    },
+    {
+      "id": "37-bert-masked-language-modeling",
+      "title": "BERT \u2014 Masked Language Modeling",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 37,
+      "file": "vol3-language/37-bert-masked-language-modeling.md",
+      "word_count": 1457
+    },
+    {
+      "id": "38-gpt-causal-language-modeling",
+      "title": "GPT \u2014 Causal Language Modeling",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 38,
+      "file": "vol3-language/38-gpt-causal-language-modeling.md",
+      "word_count": 1881
+    },
+    {
+      "id": "39-t5-bart-encoder-decoder-models",
+      "title": "T5, BART \u2014 Encoder-Decoder Models",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 39,
+      "file": "vol3-language/39-t5-bart-encoder-decoder-models.md",
+      "word_count": 1424
+    },
+    {
+      "id": "40-vision-transformers-vit",
+      "title": "Vision Transformers (ViT)",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 40,
+      "file": "vol3-language/40-vision-transformers-vit.md",
+      "word_count": 1421
+    },
+    {
+      "id": "41-audio-transformers-whisper-architecture",
+      "title": "Audio Transformers \u2014 Whisper Architecture",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 41,
+      "file": "vol3-language/41-audio-transformers-whisper-architecture.md",
+      "word_count": 1507
+    },
+    {
+      "id": "42-mixture-of-experts-moe",
+      "title": "Mixture of Experts (MoE)",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 42,
+      "file": "vol3-language/42-mixture-of-experts-moe.md",
+      "word_count": 1540
+    },
+    {
+      "id": "43-kv-cache-flash-attention-inference-optimization",
+      "title": "KV Cache, Flash Attention & Inference Optimization",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 43,
+      "file": "vol3-language/43-kv-cache-flash-attention-inference-optimization.md",
+      "word_count": 1944
+    },
+    {
+      "id": "44-scaling-laws",
+      "title": "Scaling Laws",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 44,
+      "file": "vol3-language/44-scaling-laws.md",
+      "word_count": 1538
+    },
+    {
+      "id": "45-build-a-transformer-from-scratch-the-capstone",
+      "title": "Build a Transformer from Scratch \u2014 The Capstone",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 45,
+      "file": "vol3-language/45-build-a-transformer-from-scratch-the-capstone.md",
+      "word_count": 1293
+    },
+    {
+      "id": "46-attention-variants-sliding-window-sparse-differential",
+      "title": "Attention Variants \u2014 Sliding Window, Sparse, Differential",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 46,
+      "file": "vol3-language/46-attention-variants-sliding-window-sparse-differential.md",
+      "word_count": 1935
+    },
+    {
+      "id": "47-speculative-decoding-draft-verify-repeat",
+      "title": "Speculative Decoding \u2014 Draft, Verify, Repeat",
+      "part": "Part II \u2014 Transformers Deep Dive",
+      "chapter_number": 47,
+      "file": "vol3-language/47-speculative-decoding-draft-verify-repeat.md",
+      "word_count": 1959
+    }
+  ]
+}
