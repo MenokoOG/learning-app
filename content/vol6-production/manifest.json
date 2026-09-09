@@ -1,0 +1,1152 @@
+{
+  "id": "vol6-production",
+  "title": "Production: Infrastructure, Safety, and Capstones",
+  "phases": "17, 18, 19",
+  "chapter_count": 143,
+  "chapters": [
+    {
+      "id": "01-about-this-volume",
+      "title": "About This Volume",
+      "part": null,
+      "chapter_number": 1,
+      "file": "vol6-production/01-about-this-volume.md",
+      "word_count": 138
+    },
+    {
+      "id": "02-how-to-use-this-book",
+      "title": "How to Use This Book",
+      "part": null,
+      "chapter_number": 2,
+      "file": "vol6-production/02-how-to-use-this-book.md",
+      "word_count": 204
+    },
+    {
+      "id": "03-managed-llm-platforms-bedrock-vertex-ai-azure-openai",
+      "title": "Managed LLM Platforms \u2014 Bedrock, Vertex AI, Azure OpenAI",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 3,
+      "file": "vol6-production/03-managed-llm-platforms-bedrock-vertex-ai-azure-openai.md",
+      "word_count": 1625
+    },
+    {
+      "id": "04-anyscale",
+      "title": "Anyscale",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 4,
+      "file": "vol6-production/04-anyscale.md",
+      "word_count": 1473
+    },
+    {
+      "id": "05-gpu-autoscaling-on-kubernetes-karpenter-kai-scheduler-gang-scheduling",
+      "title": "GPU Autoscaling on Kubernetes \u2014 Karpenter, KAI Scheduler, Gang Scheduling",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 5,
+      "file": "vol6-production/05-gpu-autoscaling-on-kubernetes-karpenter-kai-scheduler-gang-scheduling.md",
+      "word_count": 1524
+    },
+    {
+      "id": "06-fill",
+      "title": "fill",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 6,
+      "file": "vol6-production/06-fill.md",
+      "word_count": 1802
+    },
+    {
+      "id": "07-eagle-3-speculative-decoding-in-production",
+      "title": "EAGLE-3 Speculative Decoding in Production",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 7,
+      "file": "vol6-production/07-eagle-3-speculative-decoding-in-production.md",
+      "word_count": 1605
+    },
+    {
+      "id": "08-prefix-cache-serving-radixattention-and-kv-reuse",
+      "title": "Prefix-Cache Serving \u2014 RadixAttention and KV Reuse",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 8,
+      "file": "vol6-production/08-prefix-cache-serving-radixattention-and-kv-reuse.md",
+      "word_count": 1525
+    },
+    {
+      "id": "09-hardware-specialized-inference-compilation-fp8-and-nvfp4-on-blackwell",
+      "title": "Hardware-Specialized Inference Compilation \u2014 FP8 and NVFP4 on Blackwell",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 9,
+      "file": "vol6-production/09-hardware-specialized-inference-compilation-fp8-and-nvfp4-on-blackwell.md",
+      "word_count": 1443
+    },
+    {
+      "id": "10-inference-metrics-ttft-tpot-itl-goodput-p99",
+      "title": "Inference Metrics \u2014 TTFT, TPOT, ITL, Goodput, P99",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 10,
+      "file": "vol6-production/10-inference-metrics-ttft-tpot-itl-goodput-p99.md",
+      "word_count": 1390
+    },
+    {
+      "id": "11-production-quantization-awq-gptq-gguf-k-quants-fp8-mxfp4-nvfp4",
+      "title": "Production Quantization \u2014 AWQ, GPTQ, GGUF K-quants, FP8, MXFP4/NVFP4",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 11,
+      "file": "vol6-production/11-production-quantization-awq-gptq-gguf-k-quants-fp8-mxfp4-nvfp4.md",
+      "word_count": 1466
+    },
+    {
+      "id": "12-cold-start-mitigation-for-serverless-llms",
+      "title": "Cold Start Mitigation for Serverless LLMs",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 12,
+      "file": "vol6-production/12-cold-start-mitigation-for-serverless-llms.md",
+      "word_count": 1461
+    },
+    {
+      "id": "13-multi-region-llm-serving-and-kv-cache-locality",
+      "title": "Multi-Region LLM Serving and KV Cache Locality",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 13,
+      "file": "vol6-production/13-multi-region-llm-serving-and-kv-cache-locality.md",
+      "word_count": 1324
+    },
+    {
+      "id": "14-jetson",
+      "title": "Jetson",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 14,
+      "file": "vol6-production/14-jetson.md",
+      "word_count": 1416
+    },
+    {
+      "id": "15-llm-observability-stack-selection",
+      "title": "LLM Observability Stack Selection",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 15,
+      "file": "vol6-production/15-llm-observability-stack-selection.md",
+      "word_count": 1270
+    },
+    {
+      "id": "16-prompt-caching-and-semantic-caching-economics",
+      "title": "Prompt Caching and Semantic Caching Economics",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 16,
+      "file": "vol6-production/16-prompt-caching-and-semantic-caching-economics.md",
+      "word_count": 1475
+    },
+    {
+      "id": "17-batch-apis-the-50-discount-as-industry-standard",
+      "title": "Batch APIs \u2014 the 50% Discount as Industry Standard",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 17,
+      "file": "vol6-production/17-batch-apis-the-50-discount-as-industry-standard.md",
+      "word_count": 1242
+    },
+    {
+      "id": "18-model-routing-as-a-cost-reduction-primitive",
+      "title": "Model Routing as a Cost-Reduction Primitive",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 18,
+      "file": "vol6-production/18-model-routing-as-a-cost-reduction-primitive.md",
+      "word_count": 1125
+    },
+    {
+      "id": "19-disaggregated-prefill-decode-nvidia-dynamo-and-llm-d",
+      "title": "Disaggregated Prefill/Decode \u2014 NVIDIA Dynamo and llm-d",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 19,
+      "file": "vol6-production/19-disaggregated-prefill-decode-nvidia-dynamo-and-llm-d.md",
+      "word_count": 1610
+    },
+    {
+      "id": "20-production-serving-stack-kv-offloading-and-cache-aware-routing",
+      "title": "Production Serving Stack \u2014 KV Offloading and Cache-Aware Routing",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 20,
+      "file": "vol6-production/20-production-serving-stack-kv-offloading-and-cache-aware-routing.md",
+      "word_count": 1263
+    },
+    {
+      "id": "21-ai-gateways-litellm-portkey-kong-ai-gateway-bifrost",
+      "title": "AI Gateways \u2014 LiteLLM, Portkey, Kong AI Gateway, Bifrost",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 21,
+      "file": "vol6-production/21-ai-gateways-litellm-portkey-kong-ai-gateway-bifrost.md",
+      "word_count": 1235
+    },
+    {
+      "id": "22-shadow-traffic-canary-rollout-and-progressive-deployment-for-llms",
+      "title": "Shadow Traffic, Canary Rollout, and Progressive Deployment for LLMs",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 22,
+      "file": "vol6-production/22-shadow-traffic-canary-rollout-and-progressive-deployment-for-llms.md",
+      "word_count": 1241
+    },
+    {
+      "id": "23-a-b-testing-llm-features-growthbook-statsig-and-the-vibes-problem",
+      "title": "A/B Testing LLM Features \u2014 GrowthBook, Statsig, and the Vibes Problem",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 23,
+      "file": "vol6-production/23-a-b-testing-llm-features-growthbook-statsig-and-the-vibes-problem.md",
+      "word_count": 1171
+    },
+    {
+      "id": "24-load-testing-llm-apis-why-k6-and-locust-lie",
+      "title": "Load Testing LLM APIs \u2014 Why k6 and Locust Lie",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 24,
+      "file": "vol6-production/24-load-testing-llm-apis-why-k6-and-locust-lie.md",
+      "word_count": 1198
+    },
+    {
+      "id": "25-sre-for-ai-multi-agent-incident-response-runbooks-predictive-detection",
+      "title": "SRE for AI \u2014 Multi-Agent Incident Response, Runbooks, Predictive Detection",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 25,
+      "file": "vol6-production/25-sre-for-ai-multi-agent-incident-response-runbooks-predictive-detection.md",
+      "word_count": 1147
+    },
+    {
+      "id": "26-chaos-engineering-for-llm-production",
+      "title": "Chaos Engineering for LLM Production",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 26,
+      "file": "vol6-production/26-chaos-engineering-for-llm-production.md",
+      "word_count": 1100
+    },
+    {
+      "id": "27-security-secrets-api-key-rotation-audit-logs-guardrails",
+      "title": "Security \u2014 Secrets, API Key Rotation, Audit Logs, Guardrails",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 27,
+      "file": "vol6-production/27-security-secrets-api-key-rotation-audit-logs-guardrails.md",
+      "word_count": 1207
+    },
+    {
+      "id": "28-compliance-soc-2-hipaa-gdpr-pci-dss-eu-ai-act-iso-42001",
+      "title": "Compliance \u2014 SOC 2, HIPAA, GDPR, PCI-DSS, EU AI Act, ISO 42001",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 28,
+      "file": "vol6-production/28-compliance-soc-2-hipaa-gdpr-pci-dss-eu-ai-act-iso-42001.md",
+      "word_count": 1541
+    },
+    {
+      "id": "29-finops-for-llms-unit-economics-and-multi-tenant-attribution",
+      "title": "FinOps for LLMs \u2014 Unit Economics and Multi-Tenant Attribution",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 29,
+      "file": "vol6-production/29-finops-for-llms-unit-economics-and-multi-tenant-attribution.md",
+      "word_count": 1190
+    },
+    {
+      "id": "30-self-hosted-serving-selection-matching-engine-to-hardware-and-scale",
+      "title": "Self-Hosted Serving Selection \u2014 Matching Engine to Hardware and Scale",
+      "part": "Part I \u2014 Infrastructure & Production",
+      "chapter_number": 30,
+      "file": "vol6-production/30-self-hosted-serving-selection-matching-engine-to-hardware-and-scale.md",
+      "word_count": 1303
+    },
+    {
+      "id": "31-instruction-following-as-alignment-signal",
+      "title": "Instruction-Following as Alignment Signal",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 31,
+      "file": "vol6-production/31-instruction-following-as-alignment-signal.md",
+      "word_count": 1453
+    },
+    {
+      "id": "32-reward-hacking-and-goodhart-s-law",
+      "title": "Reward Hacking and Goodhart\u2019s Law",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 32,
+      "file": "vol6-production/32-reward-hacking-and-goodhart-s-law.md",
+      "word_count": 1687
+    },
+    {
+      "id": "33-the-direct-preference-optimization-family",
+      "title": "The Direct Preference Optimization Family",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 33,
+      "file": "vol6-production/33-the-direct-preference-optimization-family.md",
+      "word_count": 1452
+    },
+    {
+      "id": "34-sycophancy-as-rlhf-amplification",
+      "title": "Sycophancy as RLHF Amplification",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 34,
+      "file": "vol6-production/34-sycophancy-as-rlhf-amplification.md",
+      "word_count": 1503
+    },
+    {
+      "id": "35-constitutional-ai-and-rlaif",
+      "title": "Constitutional AI and RLAIF",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 35,
+      "file": "vol6-production/35-constitutional-ai-and-rlaif.md",
+      "word_count": 1382
+    },
+    {
+      "id": "36-mesa-optimization-and-deceptive-alignment",
+      "title": "Mesa-Optimization and Deceptive Alignment",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 36,
+      "file": "vol6-production/36-mesa-optimization-and-deceptive-alignment.md",
+      "word_count": 1480
+    },
+    {
+      "id": "37-sleeper-agents-persistent-deception",
+      "title": "Sleeper Agents \u2014 Persistent Deception",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 37,
+      "file": "vol6-production/37-sleeper-agents-persistent-deception.md",
+      "word_count": 1350
+    },
+    {
+      "id": "38-in-context-scheming-in-frontier-models",
+      "title": "In-Context Scheming in Frontier Models",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 38,
+      "file": "vol6-production/38-in-context-scheming-in-frontier-models.md",
+      "word_count": 1389
+    },
+    {
+      "id": "39-alignment-faking",
+      "title": "Alignment Faking",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 39,
+      "file": "vol6-production/39-alignment-faking.md",
+      "word_count": 1414
+    },
+    {
+      "id": "40-ai-control-safety-despite-subversion",
+      "title": "AI Control \u2014 Safety Despite Subversion",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 40,
+      "file": "vol6-production/40-ai-control-safety-despite-subversion.md",
+      "word_count": 1420
+    },
+    {
+      "id": "41-scalable-oversight-and-weak-to-strong-generalization",
+      "title": "Scalable Oversight and Weak-to-Strong Generalization",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 41,
+      "file": "vol6-production/41-scalable-oversight-and-weak-to-strong-generalization.md",
+      "word_count": 1323
+    },
+    {
+      "id": "42-red-teaming-pair-and-automated-attacks",
+      "title": "Red-Teaming: PAIR and Automated Attacks",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 42,
+      "file": "vol6-production/42-red-teaming-pair-and-automated-attacks.md",
+      "word_count": 1157
+    },
+    {
+      "id": "43-many-shot-jailbreaking",
+      "title": "Many-Shot Jailbreaking",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 43,
+      "file": "vol6-production/43-many-shot-jailbreaking.md",
+      "word_count": 1105
+    },
+    {
+      "id": "44-ascii-art-and-visual-jailbreaks",
+      "title": "ASCII Art and Visual Jailbreaks",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 44,
+      "file": "vol6-production/44-ascii-art-and-visual-jailbreaks.md",
+      "word_count": 1028
+    },
+    {
+      "id": "45-indirect-prompt-injection-production-attack-surface",
+      "title": "Indirect Prompt Injection \u2014 Production Attack Surface",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 45,
+      "file": "vol6-production/45-indirect-prompt-injection-production-attack-surface.md",
+      "word_count": 1252
+    },
+    {
+      "id": "46-red-team-tooling-garak-llama-guard-pyrit",
+      "title": "Red-Team Tooling \u2014 Garak, Llama Guard, PyRIT",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 46,
+      "file": "vol6-production/46-red-team-tooling-garak-llama-guard-pyrit.md",
+      "word_count": 1109
+    },
+    {
+      "id": "47-wmdp-and-dual-use-capability-evaluation",
+      "title": "WMDP and Dual-Use Capability Evaluation",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 47,
+      "file": "vol6-production/47-wmdp-and-dual-use-capability-evaluation.md",
+      "word_count": 1225
+    },
+    {
+      "id": "48-frontier-safety-frameworks-rsp-pf-fsf",
+      "title": "Frontier Safety Frameworks \u2014 RSP, PF, FSF",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 48,
+      "file": "vol6-production/48-frontier-safety-frameworks-rsp-pf-fsf.md",
+      "word_count": 1293
+    },
+    {
+      "id": "49-anthropic-s-model-welfare-program",
+      "title": "Anthropic\u2019s Model Welfare Program",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 49,
+      "file": "vol6-production/49-anthropic-s-model-welfare-program.md",
+      "word_count": 1238
+    },
+    {
+      "id": "50-bias-and-representational-harm-in-llms",
+      "title": "Bias and Representational Harm in LLMs",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 50,
+      "file": "vol6-production/50-bias-and-representational-harm-in-llms.md",
+      "word_count": 1123
+    },
+    {
+      "id": "51-fairness-criteria-group-individual-counterfactual",
+      "title": "Fairness Criteria \u2014 Group, Individual, Counterfactual",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 51,
+      "file": "vol6-production/51-fairness-criteria-group-individual-counterfactual.md",
+      "word_count": 1114
+    },
+    {
+      "id": "52-differential-privacy-for-llms",
+      "title": "Differential Privacy for LLMs",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 52,
+      "file": "vol6-production/52-differential-privacy-for-llms.md",
+      "word_count": 1287
+    },
+    {
+      "id": "53-watermarking-synthid-stable-signature-c2pa",
+      "title": "Watermarking \u2014 SynthID, Stable Signature, C2PA",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 53,
+      "file": "vol6-production/53-watermarking-synthid-stable-signature-c2pa.md",
+      "word_count": 1195
+    },
+    {
+      "id": "54-regulatory-frameworks-eu-us-uk-korea",
+      "title": "Regulatory Frameworks \u2014 EU, US, UK, Korea",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 54,
+      "file": "vol6-production/54-regulatory-frameworks-eu-us-uk-korea.md",
+      "word_count": 1262
+    },
+    {
+      "id": "55-echoleak-and-the-emergence-of-cves-for-ai",
+      "title": "EchoLeak and the Emergence of CVEs for AI",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 55,
+      "file": "vol6-production/55-echoleak-and-the-emergence-of-cves-for-ai.md",
+      "word_count": 1202
+    },
+    {
+      "id": "56-model-system-and-dataset-cards",
+      "title": "Model, System, and Dataset Cards",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 56,
+      "file": "vol6-production/56-model-system-and-dataset-cards.md",
+      "word_count": 1123
+    },
+    {
+      "id": "57-data-provenance-and-training-data-governance",
+      "title": "Data Provenance and Training-Data Governance",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 57,
+      "file": "vol6-production/57-data-provenance-and-training-data-governance.md",
+      "word_count": 1391
+    },
+    {
+      "id": "58-alignment-research-ecosystem-mats-redwood-apollo-metr",
+      "title": "Alignment Research Ecosystem \u2014 MATS, Redwood, Apollo, METR",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 58,
+      "file": "vol6-production/58-alignment-research-ecosystem-mats-redwood-apollo-metr.md",
+      "word_count": 1119
+    },
+    {
+      "id": "59-moderation-systems-openai-perspective-llama-guard",
+      "title": "Moderation Systems \u2014 OpenAI, Perspective, Llama Guard",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 59,
+      "file": "vol6-production/59-moderation-systems-openai-perspective-llama-guard.md",
+      "word_count": 1173
+    },
+    {
+      "id": "60-dual-use-risk-cyber-bio-chem-nuclear-uplift",
+      "title": "Dual-Use Risk \u2014 Cyber, Bio, Chem, Nuclear Uplift",
+      "part": "Part II \u2014 Ethics, Safety & Alignment",
+      "chapter_number": 60,
+      "file": "vol6-production/60-dual-use-risk-cyber-bio-chem-nuclear-uplift.md",
+      "word_count": 1230
+    },
+    {
+      "id": "61-capstone-01-terminal-native-coding-agent",
+      "title": "Capstone 01 \u2014 Terminal-Native Coding Agent",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 61,
+      "file": "vol6-production/61-capstone-01-terminal-native-coding-agent.md",
+      "word_count": 1491
+    },
+    {
+      "id": "62-capstone-02-rag-over-codebase-cross-repo-semantic-search",
+      "title": "Capstone 02 \u2014 RAG over Codebase (Cross-Repo Semantic Search)",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 62,
+      "file": "vol6-production/62-capstone-02-rag-over-codebase-cross-repo-semantic-search.md",
+      "word_count": 1448
+    },
+    {
+      "id": "63-capstone-03-real-time-voice-assistant-asr-to-llm-to-tts",
+      "title": "Capstone 03 \u2014 Real-Time Voice Assistant (ASR to LLM to TTS)",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 63,
+      "file": "vol6-production/63-capstone-03-real-time-voice-assistant-asr-to-llm-to-tts.md",
+      "word_count": 1508
+    },
+    {
+      "id": "64-capstone-04-multimodal-document-qa-vision-first-pdf-tables-charts",
+      "title": "Capstone 04 \u2014 Multimodal Document QA (Vision-First PDF, Tables, Charts)",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 64,
+      "file": "vol6-production/64-capstone-04-multimodal-document-qa-vision-first-pdf-tables-charts.md",
+      "word_count": 1317
+    },
+    {
+      "id": "65-capstone-05-autonomous-research-agent-ai-scientist-class",
+      "title": "Capstone 05 \u2014 Autonomous Research Agent (AI-Scientist Class)",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 65,
+      "file": "vol6-production/65-capstone-05-autonomous-research-agent-ai-scientist-class.md",
+      "word_count": 1507
+    },
+    {
+      "id": "66-capstone-06-devops-troubleshooting-agent-for-kubernetes",
+      "title": "Capstone 06 \u2014 DevOps Troubleshooting Agent for Kubernetes",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 66,
+      "file": "vol6-production/66-capstone-06-devops-troubleshooting-agent-for-kubernetes.md",
+      "word_count": 1401
+    },
+    {
+      "id": "67-capstone-07-end-to-end-fine-tuning-pipeline-data-to-sft-to-dpo-to-serve",
+      "title": "Capstone 07 \u2014 End-to-End Fine-Tuning Pipeline (Data to SFT to DPO to Serve)",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 67,
+      "file": "vol6-production/67-capstone-07-end-to-end-fine-tuning-pipeline-data-to-sft-to-dpo-to-serve.md",
+      "word_count": 1282
+    },
+    {
+      "id": "68-capstone-08-production-rag-chatbot-for-a-regulated-vertical",
+      "title": "Capstone 08 \u2014 Production RAG Chatbot for a Regulated Vertical",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 68,
+      "file": "vol6-production/68-capstone-08-production-rag-chatbot-for-a-regulated-vertical.md",
+      "word_count": 2698
+    },
+    {
+      "id": "69-capstone-10-multi-agent-software-engineering-team",
+      "title": "Capstone 10 \u2014 Multi-Agent Software Engineering Team",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 69,
+      "file": "vol6-production/69-capstone-10-multi-agent-software-engineering-team.md",
+      "word_count": 1420
+    },
+    {
+      "id": "70-capstone-11-llm-observability-eval-dashboard",
+      "title": "Capstone 11 \u2014 LLM Observability & Eval Dashboard",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 70,
+      "file": "vol6-production/70-capstone-11-llm-observability-eval-dashboard.md",
+      "word_count": 1243
+    },
+    {
+      "id": "71-capstone-12-video-understanding-pipeline-scene-qa-search",
+      "title": "Capstone 12 \u2014 Video Understanding Pipeline (Scene, QA, Search)",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 71,
+      "file": "vol6-production/71-capstone-12-video-understanding-pipeline-scene-qa-search.md",
+      "word_count": 1221
+    },
+    {
+      "id": "72-capstone-13-mcp-server-with-registry-and-governance",
+      "title": "Capstone 13 \u2014 MCP Server with Registry and Governance",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 72,
+      "file": "vol6-production/72-capstone-13-mcp-server-with-registry-and-governance.md",
+      "word_count": 1278
+    },
+    {
+      "id": "73-capstone-14-speculative-decoding-inference-server",
+      "title": "Capstone 14 \u2014 Speculative-Decoding Inference Server",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 73,
+      "file": "vol6-production/73-capstone-14-speculative-decoding-inference-server.md",
+      "word_count": 1189
+    },
+    {
+      "id": "74-capstone-15-constitutional-safety-harness-red-team-range",
+      "title": "Capstone 15 \u2014 Constitutional Safety Harness + Red-Team Range",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 74,
+      "file": "vol6-production/74-capstone-15-constitutional-safety-harness-red-team-range.md",
+      "word_count": 1354
+    },
+    {
+      "id": "75-capstone-16-github-issue-to-pr-autonomous-agent",
+      "title": "Capstone 16 \u2014 GitHub Issue-to-PR Autonomous Agent",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 75,
+      "file": "vol6-production/75-capstone-16-github-issue-to-pr-autonomous-agent.md",
+      "word_count": 1452
+    },
+    {
+      "id": "76-capstone-17-personal-ai-tutor-adaptive-multimodal-with-memory",
+      "title": "Capstone 17 \u2014 Personal AI Tutor (Adaptive, Multimodal, with Memory)",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 76,
+      "file": "vol6-production/76-capstone-17-personal-ai-tutor-adaptive-multimodal-with-memory.md",
+      "word_count": 1422
+    },
+    {
+      "id": "77-agent-harness-loop-contract",
+      "title": "Agent Harness Loop Contract",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 77,
+      "file": "vol6-production/77-agent-harness-loop-contract.md",
+      "word_count": 1132
+    },
+    {
+      "id": "78-tool-registry-with-schema-validation",
+      "title": "Tool Registry with Schema Validation",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 78,
+      "file": "vol6-production/78-tool-registry-with-schema-validation.md",
+      "word_count": 990
+    },
+    {
+      "id": "79-json-rpc-2-0-over-newline-delimited-stdio",
+      "title": "JSON-RPC 2.0 Over Newline-Delimited Stdio",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 79,
+      "file": "vol6-production/79-json-rpc-2-0-over-newline-delimited-stdio.md",
+      "word_count": 1025
+    },
+    {
+      "id": "80-function-call-dispatcher",
+      "title": "Function Call Dispatcher",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 80,
+      "file": "vol6-production/80-function-call-dispatcher.md",
+      "word_count": 965
+    },
+    {
+      "id": "81-plan-execute-control-flow",
+      "title": "Plan-Execute Control Flow",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 81,
+      "file": "vol6-production/81-plan-execute-control-flow.md",
+      "word_count": 1110
+    },
+    {
+      "id": "82-capstone-lesson-25-verification-gates-and-the-observation-budget",
+      "title": "Capstone Lesson 25: Verification Gates and the Observation Budget",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 82,
+      "file": "vol6-production/82-capstone-lesson-25-verification-gates-and-the-observation-budget.md",
+      "word_count": 1182
+    },
+    {
+      "id": "83-capstone-lesson-26-sandbox-runner-with-denylist-and-path-jail",
+      "title": "Capstone Lesson 26: Sandbox Runner with Denylist and Path Jail",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 83,
+      "file": "vol6-production/83-capstone-lesson-26-sandbox-runner-with-denylist-and-path-jail.md",
+      "word_count": 1096
+    },
+    {
+      "id": "84-capstone-lesson-27-eval-harness-with-fixture-tasks",
+      "title": "Capstone Lesson 27: Eval Harness with Fixture Tasks",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 84,
+      "file": "vol6-production/84-capstone-lesson-27-eval-harness-with-fixture-tasks.md",
+      "word_count": 1077
+    },
+    {
+      "id": "85-rics",
+      "title": "rics",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 85,
+      "file": "vol6-production/85-rics.md",
+      "word_count": 1104
+    },
+    {
+      "id": "86-capstone-lesson-29-end-to-end-coding-agent-on-the-harness",
+      "title": "Capstone Lesson 29: End-to-End Coding Agent on the Harness",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 86,
+      "file": "vol6-production/86-capstone-lesson-29-end-to-end-coding-agent-on-the-harness.md",
+      "word_count": 1163
+    },
+    {
+      "id": "87-bpe-tokenizer-from-scratch",
+      "title": "BPE Tokenizer From Scratch",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 87,
+      "file": "vol6-production/87-bpe-tokenizer-from-scratch.md",
+      "word_count": 1187
+    },
+    {
+      "id": "88-tokenized-dataset-with-sliding-window",
+      "title": "Tokenized Dataset with Sliding Window",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 88,
+      "file": "vol6-production/88-tokenized-dataset-with-sliding-window.md",
+      "word_count": 1185
+    },
+    {
+      "id": "89-token-and-positional-embeddings",
+      "title": "Token and Positional Embeddings",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 89,
+      "file": "vol6-production/89-token-and-positional-embeddings.md",
+      "word_count": 1322
+    },
+    {
+      "id": "90-multi-head-self-attention",
+      "title": "Multi-Head Self-Attention",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 90,
+      "file": "vol6-production/90-multi-head-self-attention.md",
+      "word_count": 1344
+    },
+    {
+      "id": "91-transformer-block-from-scratch",
+      "title": "Transformer Block from Scratch",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 91,
+      "file": "vol6-production/91-transformer-block-from-scratch.md",
+      "word_count": 1474
+    },
+    {
+      "id": "92-gpt-model-assembly",
+      "title": "GPT Model Assembly",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 92,
+      "file": "vol6-production/92-gpt-model-assembly.md",
+      "word_count": 1550
+    },
+    {
+      "id": "93-training-loop-and-evaluation",
+      "title": "Training Loop and Evaluation",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 93,
+      "file": "vol6-production/93-training-loop-and-evaluation.md",
+      "word_count": 1572
+    },
+    {
+      "id": "94-loading-pretrained-weights",
+      "title": "Loading Pretrained Weights",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 94,
+      "file": "vol6-production/94-loading-pretrained-weights.md",
+      "word_count": 1585
+    },
+    {
+      "id": "95-capstone-lesson-38-classifier-fine-tuning-by-head-swap",
+      "title": "Capstone Lesson 38: Classifier Fine-Tuning by Head Swap",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 95,
+      "file": "vol6-production/95-capstone-lesson-38-classifier-fine-tuning-by-head-swap.md",
+      "word_count": 1331
+    },
+    {
+      "id": "96-capstone-lesson-39-instruction-tuning-by-supervised-fine-tuning",
+      "title": "Capstone Lesson 39: Instruction Tuning by Supervised Fine-Tuning",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 96,
+      "file": "vol6-production/96-capstone-lesson-39-instruction-tuning-by-supervised-fine-tuning.md",
+      "word_count": 1432
+    },
+    {
+      "id": "97-capstone-lesson-40-direct-preference-optimization-from-scratch",
+      "title": "Capstone Lesson 40: Direct Preference Optimization from Scratch",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 97,
+      "file": "vol6-production/97-capstone-lesson-40-direct-preference-optimization-from-scratch.md",
+      "word_count": 1443
+    },
+    {
+      "id": "98-capstone-lesson-41-full-evaluation-pipeline",
+      "title": "Capstone Lesson 41: Full Evaluation Pipeline",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 98,
+      "file": "vol6-production/98-capstone-lesson-41-full-evaluation-pipeline.md",
+      "word_count": 1388
+    },
+    {
+      "id": "99-large-corpus-downloader",
+      "title": "Large Corpus Downloader",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 99,
+      "file": "vol6-production/99-large-corpus-downloader.md",
+      "word_count": 1682
+    },
+    {
+      "id": "100-hdf5-tokenized-corpus",
+      "title": "HDF5 Tokenized Corpus",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 100,
+      "file": "vol6-production/100-hdf5-tokenized-corpus.md",
+      "word_count": 1615
+    },
+    {
+      "id": "101-cosine-lr-with-linear-warmup",
+      "title": "Cosine LR with Linear Warmup",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 101,
+      "file": "vol6-production/101-cosine-lr-with-linear-warmup.md",
+      "word_count": 1610
+    },
+    {
+      "id": "102-gradient-clipping-and-mixed-precision",
+      "title": "Gradient Clipping and Mixed Precision",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 102,
+      "file": "vol6-production/102-gradient-clipping-and-mixed-precision.md",
+      "word_count": 1724
+    },
+    {
+      "id": "103-gradient-accumulation",
+      "title": "Gradient Accumulation",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 103,
+      "file": "vol6-production/103-gradient-accumulation.md",
+      "word_count": 1330
+    },
+    {
+      "id": "104-checkpoint-save-and-resume",
+      "title": "Checkpoint Save and Resume",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 104,
+      "file": "vol6-production/104-checkpoint-save-and-resume.md",
+      "word_count": 1441
+    },
+    {
+      "id": "105-distributed-data-parallel-and-fsdp-from-scratch",
+      "title": "Distributed Data Parallel and FSDP from Scratch",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 105,
+      "file": "vol6-production/105-distributed-data-parallel-and-fsdp-from-scratch.md",
+      "word_count": 1409
+    },
+    {
+      "id": "106-language-model-evaluation-harness",
+      "title": "Language Model Evaluation Harness",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 106,
+      "file": "vol6-production/106-language-model-evaluation-harness.md",
+      "word_count": 1446
+    },
+    {
+      "id": "107-hypothesis-generator",
+      "title": "Hypothesis Generator",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 107,
+      "file": "vol6-production/107-hypothesis-generator.md",
+      "word_count": 1201
+    },
+    {
+      "id": "108-literature-retrieval",
+      "title": "Literature Retrieval",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 108,
+      "file": "vol6-production/108-literature-retrieval.md",
+      "word_count": 1147
+    },
+    {
+      "id": "109-experiment-runner",
+      "title": "Experiment Runner",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 109,
+      "file": "vol6-production/109-experiment-runner.md",
+      "word_count": 1218
+    },
+    {
+      "id": "110-result-evaluator",
+      "title": "Result Evaluator",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 110,
+      "file": "vol6-production/110-result-evaluator.md",
+      "word_count": 1086
+    },
+    {
+      "id": "111-paper-writer",
+      "title": "Paper Writer",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 111,
+      "file": "vol6-production/111-paper-writer.md",
+      "word_count": 1066
+    },
+    {
+      "id": "112-critic-loop",
+      "title": "Critic Loop",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 112,
+      "file": "vol6-production/112-critic-loop.md",
+      "word_count": 1033
+    },
+    {
+      "id": "113-iteration-scheduler",
+      "title": "Iteration Scheduler",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 113,
+      "file": "vol6-production/113-iteration-scheduler.md",
+      "word_count": 1038
+    },
+    {
+      "id": "114-end-to-end-research-demo",
+      "title": "End-to-End Research Demo",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 114,
+      "file": "vol6-production/114-end-to-end-research-demo.md",
+      "word_count": 968
+    },
+    {
+      "id": "115-vision-encoder-patches",
+      "title": "Vision Encoder Patches",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 115,
+      "file": "vol6-production/115-vision-encoder-patches.md",
+      "word_count": 1282
+    },
+    {
+      "id": "116-vision-transformer-encoder",
+      "title": "Vision Transformer Encoder",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 116,
+      "file": "vol6-production/116-vision-transformer-encoder.md",
+      "word_count": 1324
+    },
+    {
+      "id": "117-projection-layer-for-modality-alignment",
+      "title": "Projection Layer for Modality Alignment",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 117,
+      "file": "vol6-production/117-projection-layer-for-modality-alignment.md",
+      "word_count": 1339
+    },
+    {
+      "id": "118-cross-attention-fusion",
+      "title": "Cross-Attention Fusion",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 118,
+      "file": "vol6-production/118-cross-attention-fusion.md",
+      "word_count": 1213
+    },
+    {
+      "id": "119-vision-language-pretraining",
+      "title": "Vision-Language Pretraining",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 119,
+      "file": "vol6-production/119-vision-language-pretraining.md",
+      "word_count": 1233
+    },
+    {
+      "id": "120-multimodal-evaluation",
+      "title": "Multimodal Evaluation",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 120,
+      "file": "vol6-production/120-multimodal-evaluation.md",
+      "word_count": 1409
+    },
+    {
+      "id": "121-chunking-strategies-compared",
+      "title": "Chunking Strategies, Compared",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 121,
+      "file": "vol6-production/121-chunking-strategies-compared.md",
+      "word_count": 1496
+    },
+    {
+      "id": "122-hybrid-retrieval-with-bm25-and-dense-embeddings",
+      "title": "Hybrid Retrieval with BM25 and Dense Embeddings",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 122,
+      "file": "vol6-production/122-hybrid-retrieval-with-bm25-and-dense-embeddings.md",
+      "word_count": 1756
+    },
+    {
+      "id": "123-cross-encoder-reranker",
+      "title": "Cross-Encoder Reranker",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 123,
+      "file": "vol6-production/123-cross-encoder-reranker.md",
+      "word_count": 1562
+    },
+    {
+      "id": "124-query-rewriting-hyde-multi-query-and-decomposition",
+      "title": "Query Rewriting: HyDE, Multi-Query, and Decomposition",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 124,
+      "file": "vol6-production/124-query-rewriting-hyde-multi-query-and-decomposition.md",
+      "word_count": 3577
+    },
+    {
+      "id": "125-end-to-end-rag-system",
+      "title": "End-to-End RAG System",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 125,
+      "file": "vol6-production/125-end-to-end-rag-system.md",
+      "word_count": 1465
+    },
+    {
+      "id": "126-task-spec-format",
+      "title": "Task Spec Format",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 126,
+      "file": "vol6-production/126-task-spec-format.md",
+      "word_count": 1026
+    },
+    {
+      "id": "127-classical-metrics",
+      "title": "Classical Metrics",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 127,
+      "file": "vol6-production/127-classical-metrics.md",
+      "word_count": 1232
+    },
+    {
+      "id": "128-code-exec-metric",
+      "title": "Code Exec Metric",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 128,
+      "file": "vol6-production/128-code-exec-metric.md",
+      "word_count": 1122
+    },
+    {
+      "id": "129-perplexity-and-calibration",
+      "title": "Perplexity and Calibration",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 129,
+      "file": "vol6-production/129-perplexity-and-calibration.md",
+      "word_count": 1242
+    },
+    {
+      "id": "130-leaderboard-aggregation",
+      "title": "Leaderboard Aggregation",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 130,
+      "file": "vol6-production/130-leaderboard-aggregation.md",
+      "word_count": 1062
+    },
+    {
+      "id": "131-end-to-end-eval-runner",
+      "title": "End-to-End Eval Runner",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 131,
+      "file": "vol6-production/131-end-to-end-eval-runner.md",
+      "word_count": 1016
+    },
+    {
+      "id": "132-collective-ops-from-scratch",
+      "title": "Collective Ops From Scratch",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 132,
+      "file": "vol6-production/132-collective-ops-from-scratch.md",
+      "word_count": 1335
+    },
+    {
+      "id": "133-data-parallel-ddp-from-scratch",
+      "title": "Data Parallel DDP From Scratch",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 133,
+      "file": "vol6-production/133-data-parallel-ddp-from-scratch.md",
+      "word_count": 1259
+    },
+    {
+      "id": "134-zero-optimizer-state-sharding",
+      "title": "ZeRO Optimizer State Sharding",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 134,
+      "file": "vol6-production/134-zero-optimizer-state-sharding.md",
+      "word_count": 1320
+    },
+    {
+      "id": "135-pipeline-parallel-and-bubble-analysis",
+      "title": "Pipeline Parallel and Bubble Analysis",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 135,
+      "file": "vol6-production/135-pipeline-parallel-and-bubble-analysis.md",
+      "word_count": 1256
+    },
+    {
+      "id": "136-sharded-checkpoint-and-atomic-resume",
+      "title": "Sharded Checkpoint and Atomic Resume",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 136,
+      "file": "vol6-production/136-sharded-checkpoint-and-atomic-resume.md",
+      "word_count": 1319
+    },
+    {
+      "id": "137-end-to-end-distributed-training",
+      "title": "End-to-End Distributed Training",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 137,
+      "file": "vol6-production/137-end-to-end-distributed-training.md",
+      "word_count": 1299
+    },
+    {
+      "id": "138-capstone-82-jailbreak-taxonomy",
+      "title": "Capstone 82 \u2014 Jailbreak Taxonomy",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 138,
+      "file": "vol6-production/138-capstone-82-jailbreak-taxonomy.md",
+      "word_count": 1058
+    },
+    {
+      "id": "139-capstone-83-prompt-injection-detector",
+      "title": "Capstone 83 \u2014 Prompt Injection Detector",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 139,
+      "file": "vol6-production/139-capstone-83-prompt-injection-detector.md",
+      "word_count": 1081
+    },
+    {
+      "id": "140-capstone-84-refusal-evaluation",
+      "title": "Capstone 84 \u2014 Refusal Evaluation",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 140,
+      "file": "vol6-production/140-capstone-84-refusal-evaluation.md",
+      "word_count": 1005
+    },
+    {
+      "id": "141-capstone-85-content-classifier-integration",
+      "title": "Capstone 85 \u2014 Content Classifier Integration",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 141,
+      "file": "vol6-production/141-capstone-85-content-classifier-integration.md",
+      "word_count": 988
+    },
+    {
+      "id": "142-capstone-86-constitutional-rules-engine",
+      "title": "Capstone 86 \u2014 Constitutional Rules Engine",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 142,
+      "file": "vol6-production/142-capstone-86-constitutional-rules-engine.md",
+      "word_count": 996
+    },
+    {
+      "id": "143-capstone-87-end-to-end-safety-gate",
+      "title": "Capstone 87 \u2014 End-to-End Safety Gate",
+      "part": "Part III \u2014 Capstone Projects",
+      "chapter_number": 143,
+      "file": "vol6-production/143-capstone-87-end-to-end-safety-gate.md",
+      "word_count": 988
+    }
+  ]
+}

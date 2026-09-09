@@ -1,0 +1,464 @@
+{
+  "id": "vol2-deep-learning",
+  "title": "Deep Learning: Networks, Vision, and Speech",
+  "phases": "03, 04, 06",
+  "chapter_count": 57,
+  "chapters": [
+    {
+      "id": "01-about-this-volume",
+      "title": "About This Volume",
+      "part": null,
+      "chapter_number": 1,
+      "file": "vol2-deep-learning/01-about-this-volume.md",
+      "word_count": 138
+    },
+    {
+      "id": "02-how-to-use-this-book",
+      "title": "How to Use This Book",
+      "part": null,
+      "chapter_number": 2,
+      "file": "vol2-deep-learning/02-how-to-use-this-book.md",
+      "word_count": 205
+    },
+    {
+      "id": "03-the-perceptron",
+      "title": "The Perceptron",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 3,
+      "file": "vol2-deep-learning/03-the-perceptron.md",
+      "word_count": 1991
+    },
+    {
+      "id": "04-multi-layer-networks-and-forward-pass",
+      "title": "Multi-Layer Networks and Forward Pass",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 4,
+      "file": "vol2-deep-learning/04-multi-layer-networks-and-forward-pass.md",
+      "word_count": 2308
+    },
+    {
+      "id": "05-backpropagation-from-scratch",
+      "title": "Backpropagation from Scratch",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 5,
+      "file": "vol2-deep-learning/05-backpropagation-from-scratch.md",
+      "word_count": 2721
+    },
+    {
+      "id": "06-activation-functions",
+      "title": "Activation Functions",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 6,
+      "file": "vol2-deep-learning/06-activation-functions.md",
+      "word_count": 2972
+    },
+    {
+      "id": "07-loss-functions",
+      "title": "Loss Functions",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 7,
+      "file": "vol2-deep-learning/07-loss-functions.md",
+      "word_count": 2898
+    },
+    {
+      "id": "08-optimizers",
+      "title": "Optimizers",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 8,
+      "file": "vol2-deep-learning/08-optimizers.md",
+      "word_count": 2892
+    },
+    {
+      "id": "09-regularization",
+      "title": "Regularization",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 9,
+      "file": "vol2-deep-learning/09-regularization.md",
+      "word_count": 3166
+    },
+    {
+      "id": "10-weight-initialization-and-training-stability",
+      "title": "Weight Initialization and Training Stability",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 10,
+      "file": "vol2-deep-learning/10-weight-initialization-and-training-stability.md",
+      "word_count": 2062
+    },
+    {
+      "id": "11-learning-rate-schedules-and-warmup",
+      "title": "Learning Rate Schedules and Warmup",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 11,
+      "file": "vol2-deep-learning/11-learning-rate-schedules-and-warmup.md",
+      "word_count": 2476
+    },
+    {
+      "id": "12-build-your-own-mini-framework",
+      "title": "Build Your Own Mini Framework",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 12,
+      "file": "vol2-deep-learning/12-build-your-own-mini-framework.md",
+      "word_count": 2901
+    },
+    {
+      "id": "13-introduction-to-pytorch",
+      "title": "Introduction to PyTorch",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 13,
+      "file": "vol2-deep-learning/13-introduction-to-pytorch.md",
+      "word_count": 2802
+    },
+    {
+      "id": "14-introduction-to-jax",
+      "title": "Introduction to JAX",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 14,
+      "file": "vol2-deep-learning/14-introduction-to-jax.md",
+      "word_count": 2670
+    },
+    {
+      "id": "15-debugging-neural-networks",
+      "title": "Debugging Neural Networks",
+      "part": "Part I \u2014 Deep Learning Core",
+      "chapter_number": 15,
+      "file": "vol2-deep-learning/15-debugging-neural-networks.md",
+      "word_count": 3541
+    },
+    {
+      "id": "16-image-fundamentals-pixels-channels-color-spaces",
+      "title": "Image Fundamentals \u2014 Pixels, Channels, Color Spaces",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 16,
+      "file": "vol2-deep-learning/16-image-fundamentals-pixels-channels-color-spaces.md",
+      "word_count": 2801
+    },
+    {
+      "id": "17-convolutions-from-scratch",
+      "title": "Convolutions from Scratch",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 17,
+      "file": "vol2-deep-learning/17-convolutions-from-scratch.md",
+      "word_count": 2616
+    },
+    {
+      "id": "18-cnns-lenet-to-resnet",
+      "title": "CNNs \u2014 LeNet to ResNet",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 18,
+      "file": "vol2-deep-learning/18-cnns-lenet-to-resnet.md",
+      "word_count": 2307
+    },
+    {
+      "id": "19-image-classification",
+      "title": "Image Classification",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 19,
+      "file": "vol2-deep-learning/19-image-classification.md",
+      "word_count": 2642
+    },
+    {
+      "id": "20-transfer-learning-fine-tuning",
+      "title": "Transfer Learning & Fine-Tuning",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 20,
+      "file": "vol2-deep-learning/20-transfer-learning-fine-tuning.md",
+      "word_count": 2217
+    },
+    {
+      "id": "21-object-detection-yolo-from-scratch",
+      "title": "Object Detection \u2014 YOLO from Scratch",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 21,
+      "file": "vol2-deep-learning/21-object-detection-yolo-from-scratch.md",
+      "word_count": 2733
+    },
+    {
+      "id": "22-semantic-segmentation-u-net",
+      "title": "Semantic Segmentation \u2014 U-Net",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 22,
+      "file": "vol2-deep-learning/22-semantic-segmentation-u-net.md",
+      "word_count": 2443
+    },
+    {
+      "id": "23-instance-segmentation-mask-r-cnn",
+      "title": "Instance Segmentation \u2014 Mask R-CNN",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 23,
+      "file": "vol2-deep-learning/23-instance-segmentation-mask-r-cnn.md",
+      "word_count": 1979
+    },
+    {
+      "id": "24-image-generation-gans",
+      "title": "Image Generation \u2014 GANs",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 24,
+      "file": "vol2-deep-learning/24-image-generation-gans.md",
+      "word_count": 1944
+    },
+    {
+      "id": "25-image-generation-diffusion-models",
+      "title": "Image Generation \u2014 Diffusion Models",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 25,
+      "file": "vol2-deep-learning/25-image-generation-diffusion-models.md",
+      "word_count": 2043
+    },
+    {
+      "id": "26-stable-diffusion-architecture-fine-tuning",
+      "title": "Stable Diffusion \u2014 Architecture & Fine-Tuning",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 26,
+      "file": "vol2-deep-learning/26-stable-diffusion-architecture-fine-tuning.md",
+      "word_count": 1866
+    },
+    {
+      "id": "27-video-understanding-temporal-modeling",
+      "title": "Video Understanding \u2014 Temporal Modeling",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 27,
+      "file": "vol2-deep-learning/27-video-understanding-temporal-modeling.md",
+      "word_count": 1859
+    },
+    {
+      "id": "28-3d-vision-point-clouds-nerfs",
+      "title": "3D Vision \u2014 Point Clouds & NeRFs",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 28,
+      "file": "vol2-deep-learning/28-3d-vision-point-clouds-nerfs.md",
+      "word_count": 1872
+    },
+    {
+      "id": "29-vision-transformers-vit",
+      "title": "Vision Transformers (ViT)",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 29,
+      "file": "vol2-deep-learning/29-vision-transformers-vit.md",
+      "word_count": 1720
+    },
+    {
+      "id": "30-real-time-vision-edge-deployment",
+      "title": "Real-Time Vision \u2014 Edge Deployment",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 30,
+      "file": "vol2-deep-learning/30-real-time-vision-edge-deployment.md",
+      "word_count": 1763
+    },
+    {
+      "id": "31-build-a-complete-vision-pipeline-capstone",
+      "title": "Build a Complete Vision Pipeline \u2014 Capstone",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 31,
+      "file": "vol2-deep-learning/31-build-a-complete-vision-pipeline-capstone.md",
+      "word_count": 1880
+    },
+    {
+      "id": "32-self-supervised-vision-simclr-dino-mae",
+      "title": "Self-Supervised Vision \u2014 SimCLR, DINO, MAE",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 32,
+      "file": "vol2-deep-learning/32-self-supervised-vision-simclr-dino-mae.md",
+      "word_count": 1741
+    },
+    {
+      "id": "33-open-vocabulary-vision-clip",
+      "title": "Open-Vocabulary Vision \u2014 CLIP",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 33,
+      "file": "vol2-deep-learning/33-open-vocabulary-vision-clip.md",
+      "word_count": 1346
+    },
+    {
+      "id": "34-ocr-document-understanding",
+      "title": "OCR & Document Understanding",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 34,
+      "file": "vol2-deep-learning/34-ocr-document-understanding.md",
+      "word_count": 1585
+    },
+    {
+      "id": "35-image-retrieval-metric-learning",
+      "title": "Image Retrieval & Metric Learning",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 35,
+      "file": "vol2-deep-learning/35-image-retrieval-metric-learning.md",
+      "word_count": 1588
+    },
+    {
+      "id": "36-keypoint-detection-pose-estimation",
+      "title": "Keypoint Detection & Pose Estimation",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 36,
+      "file": "vol2-deep-learning/36-keypoint-detection-pose-estimation.md",
+      "word_count": 1479
+    },
+    {
+      "id": "37-3d-gaussian-splatting-from-scratch",
+      "title": "3D Gaussian Splatting from Scratch",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 37,
+      "file": "vol2-deep-learning/37-3d-gaussian-splatting-from-scratch.md",
+      "word_count": 2608
+    },
+    {
+      "id": "38-diffusion-transformers-rectified-flow",
+      "title": "Diffusion Transformers & Rectified Flow",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 38,
+      "file": "vol2-deep-learning/38-diffusion-transformers-rectified-flow.md",
+      "word_count": 2209
+    },
+    {
+      "id": "39-sam-3-open-vocabulary-segmentation",
+      "title": "SAM 3 & Open-Vocabulary Segmentation",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 39,
+      "file": "vol2-deep-learning/39-sam-3-open-vocabulary-segmentation.md",
+      "word_count": 1923
+    },
+    {
+      "id": "40-vision-language-models-the-vit-mlp-llm-pattern",
+      "title": "Vision-Language Models \u2014 The ViT-MLP-LLM Pattern",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 40,
+      "file": "vol2-deep-learning/40-vision-language-models-the-vit-mlp-llm-pattern.md",
+      "word_count": 1964
+    },
+    {
+      "id": "41-monocular-depth-geometry-estimation",
+      "title": "Monocular Depth & Geometry Estimation",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 41,
+      "file": "vol2-deep-learning/41-monocular-depth-geometry-estimation.md",
+      "word_count": 1862
+    },
+    {
+      "id": "42-multi-object-tracking-video-memory",
+      "title": "Multi-Object Tracking & Video Memory",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 42,
+      "file": "vol2-deep-learning/42-multi-object-tracking-video-memory.md",
+      "word_count": 1965
+    },
+    {
+      "id": "43-world-models-video-diffusion",
+      "title": "World Models & Video Diffusion",
+      "part": "Part II \u2014 Computer Vision",
+      "chapter_number": 43,
+      "file": "vol2-deep-learning/43-world-models-video-diffusion.md",
+      "word_count": 2256
+    },
+    {
+      "id": "44-audio-fundamentals-waveforms-sampling-fourier-transform",
+      "title": "Audio Fundamentals \u2014 Waveforms, Sampling, Fourier Transform",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 44,
+      "file": "vol2-deep-learning/44-audio-fundamentals-waveforms-sampling-fourier-transform.md",
+      "word_count": 1440
+    },
+    {
+      "id": "45-spectrograms-mel-scale-audio-features",
+      "title": "Spectrograms, Mel Scale & Audio Features",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 45,
+      "file": "vol2-deep-learning/45-spectrograms-mel-scale-audio-features.md",
+      "word_count": 1572
+    },
+    {
+      "id": "46-audio-classification-from-k-nn-on-mfccs-to-ast-and-beats",
+      "title": "Audio Classification \u2014 From k-NN on MFCCs to AST and BEATs",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 46,
+      "file": "vol2-deep-learning/46-audio-classification-from-k-nn-on-mfccs-to-ast-and-beats.md",
+      "word_count": 1389
+    },
+    {
+      "id": "47-speech-recognition-asr-ctc-rnn-t-attention",
+      "title": "Speech Recognition (ASR) \u2014 CTC, RNN-T, Attention",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 47,
+      "file": "vol2-deep-learning/47-speech-recognition-asr-ctc-rnn-t-attention.md",
+      "word_count": 1524
+    },
+    {
+      "id": "48-whisper-architecture-fine-tuning",
+      "title": "Whisper \u2014 Architecture & Fine-Tuning",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 48,
+      "file": "vol2-deep-learning/48-whisper-architecture-fine-tuning.md",
+      "word_count": 1404
+    },
+    {
+      "id": "49-speaker-recognition-verification",
+      "title": "Speaker Recognition & Verification",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 49,
+      "file": "vol2-deep-learning/49-speaker-recognition-verification.md",
+      "word_count": 1355
+    },
+    {
+      "id": "50-text-to-speech-tts-from-tacotron-to-f5-and-kokoro",
+      "title": "Text-to-Speech (TTS) \u2014 From Tacotron to F5 and Kokoro",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 50,
+      "file": "vol2-deep-learning/50-text-to-speech-tts-from-tacotron-to-f5-and-kokoro.md",
+      "word_count": 1410
+    },
+    {
+      "id": "51-voice-cloning-voice-conversion",
+      "title": "Voice Cloning & Voice Conversion",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 51,
+      "file": "vol2-deep-learning/51-voice-cloning-voice-conversion.md",
+      "word_count": 2794
+    },
+    {
+      "id": "52-audio-language-models-qwen2-5-omni-audio-flamingo-gpt-4o-audio",
+      "title": "Audio-Language Models \u2014 Qwen2.5-Omni, Audio Flamingo, GPT-4o Audio",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 52,
+      "file": "vol2-deep-learning/52-audio-language-models-qwen2-5-omni-audio-flamingo-gpt-4o-audio.md",
+      "word_count": 1385
+    },
+    {
+      "id": "53-real-time-audio-processing",
+      "title": "Real-Time Audio Processing",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 53,
+      "file": "vol2-deep-learning/53-real-time-audio-processing.md",
+      "word_count": 1284
+    },
+    {
+      "id": "54-build-a-voice-assistant-pipeline-the-phase-6-capstone",
+      "title": "Build a Voice Assistant Pipeline \u2014 The Phase 6 Capstone",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 54,
+      "file": "vol2-deep-learning/54-build-a-voice-assistant-pipeline-the-phase-6-capstone.md",
+      "word_count": 1353
+    },
+    {
+      "id": "55-split",
+      "title": "Split",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 55,
+      "file": "vol2-deep-learning/55-split.md",
+      "word_count": 1698
+    },
+    {
+      "id": "56-voice-activity-detection-turn-taking-silero-cobra-and-the-flush-trick",
+      "title": "Voice Activity Detection & Turn-Taking \u2014 Silero, Cobra, and the Flush Trick",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 56,
+      "file": "vol2-deep-learning/56-voice-activity-detection-turn-taking-silero-cobra-and-the-flush-trick.md",
+      "word_count": 1376
+    },
+    {
+      "id": "57-streaming-speech-to-speech-moshi-hibiki-and-full-duplex-dialogue",
+      "title": "Streaming Speech-to-Speech \u2014 Moshi, Hibiki, and Full-Duplex Dialogue",
+      "part": "Part III \u2014 Speech & Audio",
+      "chapter_number": 57,
+      "file": "vol2-deep-learning/57-streaming-speech-to-speech-moshi-hibiki-and-full-duplex-dialogue.md",
+      "word_count": 4746
+    }
+  ]
+}

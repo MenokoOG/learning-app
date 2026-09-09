@@ -1,0 +1,440 @@
+{
+  "id": "vol1-foundations",
+  "title": "Foundations: Math, Tooling, and Classical Machine Learning",
+  "phases": "00, 01, 02",
+  "chapter_count": 54,
+  "chapters": [
+    {
+      "id": "01-about-this-volume",
+      "title": "About This Volume",
+      "part": null,
+      "chapter_number": 1,
+      "file": "vol1-foundations/01-about-this-volume.md",
+      "word_count": 138
+    },
+    {
+      "id": "02-how-to-use-this-book",
+      "title": "How to Use This Book",
+      "part": null,
+      "chapter_number": 2,
+      "file": "vol1-foundations/02-how-to-use-this-book.md",
+      "word_count": 204
+    },
+    {
+      "id": "03-dev-environment",
+      "title": "Dev Environment",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 3,
+      "file": "vol1-foundations/03-dev-environment.md",
+      "word_count": 762
+    },
+    {
+      "id": "04-git-collaboration",
+      "title": "Git & Collaboration",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 4,
+      "file": "vol1-foundations/04-git-collaboration.md",
+      "word_count": 561
+    },
+    {
+      "id": "05-gpu-setup-cloud",
+      "title": "GPU Setup & Cloud",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 5,
+      "file": "vol1-foundations/05-gpu-setup-cloud.md",
+      "word_count": 600
+    },
+    {
+      "id": "06-apis-keys",
+      "title": "APIs & Keys",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 6,
+      "file": "vol1-foundations/06-apis-keys.md",
+      "word_count": 704
+    },
+    {
+      "id": "07-jupyter-notebooks",
+      "title": "Jupyter Notebooks",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 7,
+      "file": "vol1-foundations/07-jupyter-notebooks.md",
+      "word_count": 1292
+    },
+    {
+      "id": "08-python-environments",
+      "title": "Python Environments",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 8,
+      "file": "vol1-foundations/08-python-environments.md",
+      "word_count": 1153
+    },
+    {
+      "id": "09-docker-for-ai",
+      "title": "Docker for AI",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 9,
+      "file": "vol1-foundations/09-docker-for-ai.md",
+      "word_count": 1591
+    },
+    {
+      "id": "10-editor-setup",
+      "title": "Editor Setup",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 10,
+      "file": "vol1-foundations/10-editor-setup.md",
+      "word_count": 1188
+    },
+    {
+      "id": "11-data-management",
+      "title": "Data Management",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 11,
+      "file": "vol1-foundations/11-data-management.md",
+      "word_count": 1160
+    },
+    {
+      "id": "12-terminal-shell",
+      "title": "Terminal & Shell",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 12,
+      "file": "vol1-foundations/12-terminal-shell.md",
+      "word_count": 1553
+    },
+    {
+      "id": "13-linux-for-ai",
+      "title": "Linux for AI",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 13,
+      "file": "vol1-foundations/13-linux-for-ai.md",
+      "word_count": 1723
+    },
+    {
+      "id": "14-debugging-and-profiling",
+      "title": "Debugging and Profiling",
+      "part": "Part I \u2014 Setup & Tooling",
+      "chapter_number": 14,
+      "file": "vol1-foundations/14-debugging-and-profiling.md",
+      "word_count": 1579
+    },
+    {
+      "id": "15-linear-algebra-intuition",
+      "title": "Linear Algebra Intuition",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 15,
+      "file": "vol1-foundations/15-linear-algebra-intuition.md",
+      "word_count": 2440
+    },
+    {
+      "id": "16-vectors-matrices-operations",
+      "title": "Vectors, Matrices & Operations",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 16,
+      "file": "vol1-foundations/16-vectors-matrices-operations.md",
+      "word_count": 1753
+    },
+    {
+      "id": "17-matrix-transformations",
+      "title": "Matrix Transformations",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 17,
+      "file": "vol1-foundations/17-matrix-transformations.md",
+      "word_count": 2099
+    },
+    {
+      "id": "18-calculus-for-machine-learning",
+      "title": "Calculus for Machine Learning",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 18,
+      "file": "vol1-foundations/18-calculus-for-machine-learning.md",
+      "word_count": 3660
+    },
+    {
+      "id": "19-chain-rule-automatic-differentiation",
+      "title": "Chain Rule & Automatic Differentiation",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 19,
+      "file": "vol1-foundations/19-chain-rule-automatic-differentiation.md",
+      "word_count": 2662
+    },
+    {
+      "id": "20-probability-and-distributions",
+      "title": "Probability and Distributions",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 20,
+      "file": "vol1-foundations/20-probability-and-distributions.md",
+      "word_count": 2335
+    },
+    {
+      "id": "21-bayes-theorem",
+      "title": "Bayes\u2019 Theorem",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 21,
+      "file": "vol1-foundations/21-bayes-theorem.md",
+      "word_count": 2067
+    },
+    {
+      "id": "22-optimization",
+      "title": "Optimization",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 22,
+      "file": "vol1-foundations/22-optimization.md",
+      "word_count": 2250
+    },
+    {
+      "id": "23-information-theory",
+      "title": "Information Theory",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 23,
+      "file": "vol1-foundations/23-information-theory.md",
+      "word_count": 2514
+    },
+    {
+      "id": "24-dimensionality-reduction",
+      "title": "Dimensionality Reduction",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 24,
+      "file": "vol1-foundations/24-dimensionality-reduction.md",
+      "word_count": 2381
+    },
+    {
+      "id": "25-singular-value-decomposition",
+      "title": "Singular Value Decomposition",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 25,
+      "file": "vol1-foundations/25-singular-value-decomposition.md",
+      "word_count": 3560
+    },
+    {
+      "id": "26-tensor-operations",
+      "title": "Tensor Operations",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 26,
+      "file": "vol1-foundations/26-tensor-operations.md",
+      "word_count": 2079
+    },
+    {
+      "id": "27-numerical-stability",
+      "title": "Numerical Stability",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 27,
+      "file": "vol1-foundations/27-numerical-stability.md",
+      "word_count": 3599
+    },
+    {
+      "id": "28-norms-and-distances",
+      "title": "Norms and Distances",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 28,
+      "file": "vol1-foundations/28-norms-and-distances.md",
+      "word_count": 3655
+    },
+    {
+      "id": "29-statistics-for-machine-learning",
+      "title": "Statistics for Machine Learning",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 29,
+      "file": "vol1-foundations/29-statistics-for-machine-learning.md",
+      "word_count": 3186
+    },
+    {
+      "id": "30-sampling-methods",
+      "title": "Sampling Methods",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 30,
+      "file": "vol1-foundations/30-sampling-methods.md",
+      "word_count": 4367
+    },
+    {
+      "id": "31-linear-systems",
+      "title": "Linear Systems",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 31,
+      "file": "vol1-foundations/31-linear-systems.md",
+      "word_count": 4032
+    },
+    {
+      "id": "32-convex-optimization",
+      "title": "Convex Optimization",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 32,
+      "file": "vol1-foundations/32-convex-optimization.md",
+      "word_count": 3667
+    },
+    {
+      "id": "33-complex-numbers-for-ai",
+      "title": "Complex Numbers for AI",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 33,
+      "file": "vol1-foundations/33-complex-numbers-for-ai.md",
+      "word_count": 2841
+    },
+    {
+      "id": "34-the-fourier-transform",
+      "title": "The Fourier Transform",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 34,
+      "file": "vol1-foundations/34-the-fourier-transform.md",
+      "word_count": 3255
+    },
+    {
+      "id": "35-graph-theory-for-machine-learning",
+      "title": "Graph Theory for Machine Learning",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 35,
+      "file": "vol1-foundations/35-graph-theory-for-machine-learning.md",
+      "word_count": 2731
+    },
+    {
+      "id": "36-stochastic-processes",
+      "title": "Stochastic Processes",
+      "part": "Part II \u2014 Math Foundations",
+      "chapter_number": 36,
+      "file": "vol1-foundations/36-stochastic-processes.md",
+      "word_count": 3409
+    },
+    {
+      "id": "37-what-is-machine-learning",
+      "title": "What Is Machine Learning",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 37,
+      "file": "vol1-foundations/37-what-is-machine-learning.md",
+      "word_count": 2828
+    },
+    {
+      "id": "38-linear-regression",
+      "title": "Linear Regression",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 38,
+      "file": "vol1-foundations/38-linear-regression.md",
+      "word_count": 3131
+    },
+    {
+      "id": "39-logistic-regression",
+      "title": "Logistic Regression",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 39,
+      "file": "vol1-foundations/39-logistic-regression.md",
+      "word_count": 2672
+    },
+    {
+      "id": "40-decision-trees-and-random-forests",
+      "title": "Decision Trees and Random Forests",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 40,
+      "file": "vol1-foundations/40-decision-trees-and-random-forests.md",
+      "word_count": 2765
+    },
+    {
+      "id": "41-support-vector-machines",
+      "title": "Support Vector Machines",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 41,
+      "file": "vol1-foundations/41-support-vector-machines.md",
+      "word_count": 2335
+    },
+    {
+      "id": "42-k-nearest-neighbors-and-distances",
+      "title": "K-Nearest Neighbors and Distances",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 42,
+      "file": "vol1-foundations/42-k-nearest-neighbors-and-distances.md",
+      "word_count": 2426
+    },
+    {
+      "id": "43-unsupervised-learning",
+      "title": "Unsupervised Learning",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 43,
+      "file": "vol1-foundations/43-unsupervised-learning.md",
+      "word_count": 2511
+    },
+    {
+      "id": "44-feature-engineering-selection",
+      "title": "Feature Engineering & Selection",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 44,
+      "file": "vol1-foundations/44-feature-engineering-selection.md",
+      "word_count": 2883
+    },
+    {
+      "id": "45-model-evaluation",
+      "title": "Model Evaluation",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 45,
+      "file": "vol1-foundations/45-model-evaluation.md",
+      "word_count": 3528
+    },
+    {
+      "id": "46-bias-variance-tradeoff",
+      "title": "Bias-Variance Tradeoff",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 46,
+      "file": "vol1-foundations/46-bias-variance-tradeoff.md",
+      "word_count": 3103
+    },
+    {
+      "id": "47-ensemble-methods",
+      "title": "Ensemble Methods",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 47,
+      "file": "vol1-foundations/47-ensemble-methods.md",
+      "word_count": 2086
+    },
+    {
+      "id": "48-hyperparameter-tuning",
+      "title": "Hyperparameter Tuning",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 48,
+      "file": "vol1-foundations/48-hyperparameter-tuning.md",
+      "word_count": 3255
+    },
+    {
+      "id": "49-ml-pipelines",
+      "title": "ML Pipelines",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 49,
+      "file": "vol1-foundations/49-ml-pipelines.md",
+      "word_count": 1852
+    },
+    {
+      "id": "50-naive-bayes",
+      "title": "Naive Bayes",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 50,
+      "file": "vol1-foundations/50-naive-bayes.md",
+      "word_count": 3337
+    },
+    {
+      "id": "51-time-series-fundamentals",
+      "title": "Time Series Fundamentals",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 51,
+      "file": "vol1-foundations/51-time-series-fundamentals.md",
+      "word_count": 2943
+    },
+    {
+      "id": "52-anomaly-detection",
+      "title": "Anomaly Detection",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 52,
+      "file": "vol1-foundations/52-anomaly-detection.md",
+      "word_count": 3341
+    },
+    {
+      "id": "53-handling-imbalanced-data",
+      "title": "Handling Imbalanced Data",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 53,
+      "file": "vol1-foundations/53-handling-imbalanced-data.md",
+      "word_count": 2900
+    },
+    {
+      "id": "54-feature-selection",
+      "title": "Feature Selection",
+      "part": "Part III \u2014 ML Fundamentals",
+      "chapter_number": 54,
+      "file": "vol1-foundations/54-feature-selection.md",
+      "word_count": 2913
+    }
+  ]
+}
