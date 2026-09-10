@@ -8,10 +8,16 @@
     "apps/web"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace apps/api & npm run dev --workspace apps/web & wait",
+    "dev": "concurrently -n api,web -c cyan,magenta \"npm:dev:api\" \"npm:dev:web\"",
     "dev:api": "npm run dev --workspace apps/api",
     "dev:web": "npm run dev --workspace apps/web",
     "build": "npm run build --workspace apps/api && npm run build --workspace apps/web",
     "install:all": "npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
   }
 }
