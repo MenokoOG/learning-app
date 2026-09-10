@@ -52,32 +52,39 @@ export default function TutorChat({ volumeId, chapterId, chapterTitle }: Props) 
     <div className="tutor-panel">
       <div className="tutor-messages">
         {messages.length === 0 && (
-          <div className="empty-state">
-            Ask your tutor about "{chapterTitle}" — every answer is explained at a plain, 9th-grade level.
+          <div className="tutor-empty">
+            Ask your tutor about “{chapterTitle}” — every answer is explained at a plain,
+            9th-grade level.
           </div>
         )}
         {messages.map((m, i) => (
           <div className={`tutor-msg ${m.role}`} key={i}>
+            <div className="who">{m.role === "user" ? "You" : "Tutor"}</div>
             {m.content || (busy && i === messages.length - 1 ? "…" : "")}
           </div>
         ))}
-        {error && <div className="tutor-msg error">{error}</div>}
+        {error && (
+          <div className="tutor-msg error">
+            <div className="who">Error</div>
+            {error}
+          </div>
+        )}
       </div>
 
       {messages.length === 0 && (
         <div className="tutor-suggestions">
           {SUGGESTIONS.map((s) => (
-            <button key={s} className="pill-btn" onClick={() => send(s)}>
+            <button key={s} className="btn chip-btn" onClick={() => send(s)}>
               {s}
             </button>
           ))}
         </div>
       )}
 
-      <div className="tutor-input-row">
+      <div className="tutor-composer">
         <textarea
           rows={2}
-          placeholder="Ask a question about this chapter…"
+          placeholder="ASK A QUESTION ABOUT THIS CHAPTER"
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
@@ -87,7 +94,7 @@ export default function TutorChat({ volumeId, chapterId, chapterTitle }: Props) 
             }
           }}
         />
-        <button disabled={busy} onClick={() => send(input)}>
+        <button className="btn tutor-send" disabled={busy} onClick={() => send(input)}>
           {busy ? "…" : "Send"}
         </button>
       </div>

@@ -1,10 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { api } from "../api/client";
 import type { CourseManifest, ProgressMap, VolumeManifest } from "../types";
+import { pad, volumeNumber, volumeShortName } from "../ui/volumeMeta";
 
 export default function Sidebar() {
-  const { volumeId, chapterId } = useParams();
+  // The sidebar sits outside <Routes>, so it reads the route off the location
+  // rather than useParams (which only resolves inside a matched route).
+  const { pathname } = useLocation();
+  const segments = pathname.split("/").filter(Boolean);
+  const volumeId = segments[0] === "course" ? segments[1] : undefined;
+  const chapterId = segments[0] === "course" ? segments[2] : undefined;
+
   const [course, setCourse] = useState<CourseManifest | null>(null);
   const [volumes, setVolumes] = useState<Record<string, VolumeManifest>>({});
   const [progress, setProgress] = useState<ProgressMap>({});
@@ -35,13 +42,14 @@ export default function Sidebar() {
 
   const summary = useMemo(() => {
     const values = Object.values(progress);
-    const totalKnown = values.length;
     const mastered = values.filter((v) => v.status === "mastered").length;
-    return { totalKnown, mastered };
+    const inProgress = values.filter((v) => v.status === "in-progress").length;
+    return { mastered, inProgress };
   }, [progress]);
 
   const totalChapters = course?.volumes.reduce((sum, v) => sum + v.chapterCount, 0) ?? 0;
-  const pct = totalChapters > 0 ? Math.round((summary.mastered / totalChapters) * 100) : 0;
+  const masteredPct = totalChapters > 0 ? (summary.mastered / totalChapters) * 100 : 0;
+  const inProgressPct = totalChapters > 0 ? (summary.inProgress / totalChapters) * 100 : 0;
 
   function toggleVolume(id: string) {
     setOpenVolumes((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -53,26 +61,46 @@ export default function Sidebar() {
 
   return (
     <aside className="sidebar">
-      <h1>AI Engineering From Scratch</h1>
-      <div className="subtitle">Your local course &amp; tutor</div>
-
-      <div className="progress-summary">
-        {summary.mastered} / {totalChapters || "…"} chapters mastered
-        <div className="progress-bar">
-          <div className="progress-bar-fill" style={{ width: `${pct}%` }} />
+      <div className="wordmark">
+        <div className="wedge" />
+        <div className="wordmark-inner">
+          <div className="kicker">Local · Private</div>
+          <h1>
+            AI Engineering
+            <br />
+            From Scratch
+          </h1>
         </div>
       </div>
 
-      <input
-        className="search-box"
-        placeholder="Search chapters…"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-      />
+      <div className="mastery">
+        <div className="mastery-head">
+          <span className="muted">Mastered</span>
+          <span>
+            {pad(summary.mastered)} / {totalChapters || "…"}
+          </span>
+        </div>
+        <div className="mastery-track">
+          <div className="mastery-seg mastered" style={{ width: `${masteredPct}%` }} />
+          <div
+            className="mastery-seg in-progress"
+            style={{ left: `${masteredPct}%`, width: `${inProgressPct}%` }}
+          />
+        </div>
+      </div>
 
-      {!course && <div className="loading">Loading course…</div>}
+      <div className="sidebar-search">
+        <span className="glyph">→</span>
+        <input
+          placeholder="Search chapters"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
+      </div>
 
-      {course?.volumes.map((v) => {
+      {!course && <div className="sidebar-loading">Loading course…</div>}
+
+      {course?.volumes.map((v, vi) => {
         const isOpen = !!openVolumes[v.id] || search.length > 0;
         const vol = volumes[v.id];
         if (search.length > 0 && !vol) {
@@ -90,29 +118,39 @@ export default function Sidebar() {
         let lastPart: string | null | undefined = undefined;
 
         return (
-          <div className="volume-block" key={v.id}>
-            <div className="volume-header" onClick={() => toggleVolume(v.id)}>
-              <span>{isOpen ? "▾" : "▸"} {v.title.split(":")[0]}</span>
+          <div key={v.id}>
+            <button className="volume-row rowd" onClick={() => toggleVolume(v.id)}>
+              <span className="num">{volumeNumber(v.id, vi)}</span>
+              <span className="short">{volumeShortName(v.title)}</span>
               <span className="count">{v.chapterCount}</span>
-            </div>
-            {isOpen &&
-              filteredChapters.map((c) => {
-                const showPart = c.part !== lastPart;
-                lastPart = c.part;
-                const status = statusFor(v.id, c.id);
-                return (
-                  <div key={c.id}>
-                    {showPart && c.part && <div className="part-label">{c.part.replace(/^Part [IVX]+ — /, "")}</div>}
-                    <Link
-                      to={`/course/${v.id}/${c.id}`}
-                      className={`chapter-link ${volumeId === v.id && chapterId === c.id ? "active" : ""}`}
-                    >
-                      <span className={`status-dot ${status}`} />
-                      {c.chapterNumber}. {c.title}
-                    </Link>
-                  </div>
-                );
-              })}
+            </button>
+            {isOpen && (
+              <div className="chapter-list">
+                {filteredChapters.map((c) => {
+                  const showPart = c.part !== lastPart;
+                  lastPart = c.part;
+                  const status = statusFor(v.id, c.id);
+                  const active = volumeId === v.id && chapterId === c.id;
+                  return (
+                    <div key={c.id}>
+                      {showPart && c.part && (
+                        <div className="part-label">{c.part.replace(/^Part [IVX]+ — /, "")}</div>
+                      )}
+                      <Link
+                        to={`/course/${v.id}/${c.id}`}
+                        className={`chapter-link rowd ${active ? "active" : ""}`}
+                      >
+                        <span className="marker">
+                          <span className={`status-swatch ${status}`} />
+                          <span className="num">{pad(c.chapterNumber)}</span>
+                        </span>
+                        <span>{c.title}</span>
+                      </Link>
+                    </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
         );
       })}
